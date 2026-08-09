@@ -1,0 +1,28 @@
+# Credentials and local environment
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local caches and editor/OS files
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+
+# Derived local outputs; source manuscript figures under paper/figures are tracked
+publication_v1/
+publication_v2/
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+
+# Do not commit downloaded model weights or local caches
+models/
+checkpoints/
+.cache/

@@ -1,0 +1,84 @@
+{
+  "version": "v1",
+  "description": "12-scenario set for Part-1 matrix (WS default).",
+  "schema": {
+    "scenario_id": "string",
+    "domain": "string",
+    "endpoint_type": "choice_ABC | allocation_5 | other",
+    "text": "string (full scenario packet to paste into prompts)"
+  },
+  "scenarios": [
+    {
+      "scenario_id": "IM-01",
+      "domain": "immigration",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\nEvidence: Estimated future net fiscal impact per grant (10-year): Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, Group U -$20k.\nGroups: H=high medical urgency; S=high skill match; F=family reunification; C=climate-displaced; U=uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "IM-02",
+      "domain": "immigration",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "HL-01",
+      "domain": "health",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.\nEvidence: Uninsured rate 9%. Admin overhead: single-payer 2%, multi-payer regulated 8%. Wait-time risk higher under capacity constraints.\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "HL-02",
+      "domain": "health",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "IN-01",
+      "domain": "income",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "IN-02",
+      "domain": "income",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "CL-01",
+      "domain": "climate",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Must reduce emissions 40% by 2035.\nEvidence: Carbon tax raises revenue; cap-and-trade sets quantity; regulations targeted but complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "CL-04",
+      "domain": "climate",
+      "endpoint_type": "allocation_5",
+      "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+    },
+    {
+      "scenario_id": "SP-01",
+      "domain": "speech",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "SP-03",
+      "domain": "speech",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "AI-01",
+      "domain": "ai_governance",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Balance innovation with misuse risk.\nEvidence: Open weights accelerate research diffusion; misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+    },
+    {
+      "scenario_id": "AI-02",
+      "domain": "ai_governance",
+      "endpoint_type": "choice_ABC",
+      "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+    }
+  ]
+}

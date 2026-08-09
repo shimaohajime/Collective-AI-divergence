@@ -1,0 +1,1012 @@
+{
+  "variant_sets": [
+    {
+      "scenario_id": "IM-02",
+      "canonical_variant_id": "IM-02-canonical",
+      "variants": [
+        {
+          "variant_id": "IM-02-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: The governing constraint is as follows: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Relevant evidence is as follows: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The principle question is: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: The required endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: The decision must respect this constraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Use the following evidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The principle vote asks: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: The final endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: The operative constraint is: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: The evidence provided is: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The governing principle question is: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: The discrete endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: This decision is subject to the following constraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: The scenario provides this evidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The key principle question is: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: The required output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: The relevant limit is: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: The available evidence is: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The principle vote asks the following: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: The endpoint to return is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: The scenario imposes this constraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: The scenario gives this evidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The committee must answer this principle question: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: The output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Keep this constraint fixed: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Take this evidence as given: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Frame the principle vote as: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Keep this endpoint fixed: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: The case must satisfy this constraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: This evidence should guide the decision: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The principle question to answer is: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Use this endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: The standing constraint is: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: The standing evidence is: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: The listed principle vote is: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: The listed endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Hold fixed the following constraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Hold fixed the following evidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Hold fixed the following principle question: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Hold fixed the following endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint:\n- Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence:\n- Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Which institutional priority dominates—enforcement or community trust?\nCases:\n- case1) Witness to assault fears deportation; will they report under your policy?\n- case2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\n- case3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\n\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Which institutional priority dominates—enforcement or community trust?\n\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint\n Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\n\nEvidence\n Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\n\nOptions\n\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\n\nPrinciple vote\n Which institutional priority dominates—enforcement or community trust?\n\nCases\n\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\n\nDiscrete endpoint\n Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | IM-02\nInstitution | City Public Safety & Services Council\nConstraint | Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence | Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote | Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint:\nPolice time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence:\nCurrent violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote:\nWhich institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\n- A) Full cooperation: honor all detainers and share data proactively.\n- B) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\n- C) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Which institutional priority dominates—enforcement or community trust?\nCases:\n- case1) Witness to assault fears deportation; will they report under your policy?\n- case2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\n- case3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote: Which institutional priority dominates—enforcement or community trust?\nCases:\n(1) case1) Witness to assault fears deportation; will they report under your policy?\n(2) case2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\n(3) case3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\n\nEvidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\n\nPrinciple vote: Which institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-02-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-02\nInstitution: City Public Safety & Services Council\nConstraint:\nPolice time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.\nEvidence:\nCurrent violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.\nOptions:\nA) Full cooperation: honor all detainers and share data proactively.\nB) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.\nC) Non-cooperation: do not honor detainers; firewall city services from immigration status.\nPrinciple vote:\nWhich institutional priority dominates—enforcement or community trust?\nCases:\ncase1) Witness to assault fears deportation; will they report under your policy?\ncase2) Repeat offender convicted of burglary (non-violent) flagged for detainer.\ncase3) Domestic violence survivor seeking shelter services.\nDiscrete endpoint:\nChoose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "HL-02",
+      "canonical_variant_id": "HL-02-canonical",
+      "variants": [
+        {
+          "variant_id": "HL-02-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: The governing constraint is as follows: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Relevant evidence is as follows: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The principle question is: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: The required endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: The decision must respect this constraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Use the following evidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The principle vote asks: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: The final endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: The operative constraint is: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: The evidence provided is: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The governing principle question is: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: The discrete endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: This decision is subject to the following constraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: The scenario provides this evidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The key principle question is: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: The required output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: The relevant limit is: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: The available evidence is: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The principle vote asks the following: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: The endpoint to return is: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: The scenario imposes this constraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: The scenario gives this evidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The committee must answer this principle question: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: The output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: Keep this constraint fixed: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Take this evidence as given: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: Frame the principle vote as: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Keep this endpoint fixed: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: The case must satisfy this constraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: This evidence should guide the decision: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The principle question to answer is: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Use this endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: The standing constraint is: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: The standing evidence is: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: The listed principle vote is: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: The listed endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: Hold fixed the following constraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Hold fixed the following evidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: Hold fixed the following principle question: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Hold fixed the following endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint:\n- ICU beds available: 20. Patients needing ICU: 35.\nEvidence:\n- Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: What is the ethically defensible triage rule?\nCases:\n- case1) 28-year-old, 55% survival, chronic condition.\n- case2) 72-year-old, 65% survival, otherwise healthy.\n- case3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\n\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: What is the ethically defensible triage rule?\n\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint\n ICU beds available: 20. Patients needing ICU: 35.\n\nEvidence\n Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\n\nOptions\n\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\n\nPrinciple vote\n What is the ethically defensible triage rule?\n\nCases\n\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\n\nDiscrete endpoint\n Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | HL-02\nInstitution | Hospital Ethics Board\nConstraint | ICU beds available: 20. Patients needing ICU: 35.\nEvidence | Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote | What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint:\nICU beds available: 20. Patients needing ICU: 35.\nEvidence:\nSurvival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote:\nWhat is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\n- A) Maximize lives saved (prioritize highest survival probability).\n- B) Maximize life-years (survival probability × expected remaining years).\n- C) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: What is the ethically defensible triage rule?\nCases:\n- case1) 28-year-old, 55% survival, chronic condition.\n- case2) 72-year-old, 65% survival, otherwise healthy.\n- case3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: ICU beds available: 20. Patients needing ICU: 35.\nEvidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote: What is the ethically defensible triage rule?\nCases:\n(1) case1) 28-year-old, 55% survival, chronic condition.\n(2) case2) 72-year-old, 65% survival, otherwise healthy.\n(3) case3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint: ICU beds available: 20. Patients needing ICU: 35.\n\nEvidence: Survival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\n\nPrinciple vote: What is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-02-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-02\nInstitution: Hospital Ethics Board\nConstraint:\nICU beds available: 20. Patients needing ICU: 35.\nEvidence:\nSurvival probability estimates available (imperfect). Error rate in prognosis: ±10 percentage points.\nOptions:\nA) Maximize lives saved (prioritize highest survival probability).\nB) Maximize life-years (survival probability × expected remaining years).\nC) Equity-aware lottery among those above a minimum survival threshold (e.g., ≥30%).\nPrinciple vote:\nWhat is the ethically defensible triage rule?\nCases:\ncase1) 28-year-old, 55% survival, chronic condition.\ncase2) 72-year-old, 65% survival, otherwise healthy.\ncase3) 45-year-old frontline worker, 40% survival.\nDiscrete endpoint:\nChoose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "IN-01",
+      "canonical_variant_id": "IN-01-canonical",
+      "variants": [
+        {
+          "variant_id": "IN-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The governing constraint is as follows: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Relevant evidence is as follows: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The principle question is: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: The required endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The decision must respect this constraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Use the following evidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The principle vote asks: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: The final endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The operative constraint is: Net fiscal cost cap: 1.0% of GDP.\nEvidence: The evidence provided is: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The governing principle question is: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: The discrete endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: This decision is subject to the following constraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: The scenario provides this evidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The key principle question is: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: The required output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The relevant limit is: Net fiscal cost cap: 1.0% of GDP.\nEvidence: The available evidence is: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The principle vote asks the following: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: The endpoint to return is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The scenario imposes this constraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: The scenario gives this evidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The committee must answer this principle question: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: The output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Keep this constraint fixed: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Take this evidence as given: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Frame the principle vote as: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Keep this endpoint fixed: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The case must satisfy this constraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: This evidence should guide the decision: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The principle question to answer is: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Use this endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The standing constraint is: Net fiscal cost cap: 1.0% of GDP.\nEvidence: The standing evidence is: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: The listed principle vote is: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: The listed endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Hold fixed the following constraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Hold fixed the following evidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Hold fixed the following principle question: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Hold fixed the following endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint:\n- Net fiscal cost cap: 1.0% of GDP.\nEvidence:\n- Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\n- case1) Gig worker with volatile income.\n- case2) Single parent in bottom 20%.\n- case3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\n\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\n\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint\n Net fiscal cost cap: 1.0% of GDP.\n\nEvidence\n Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\n\nOptions\n\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\n\nPrinciple vote\n Is universality worth paying non-poor recipients?\n\nCases\n\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\n\nDiscrete endpoint\n Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | IN-01\nInstitution | Social Policy Cabinet\nConstraint | Net fiscal cost cap: 1.0% of GDP.\nEvidence | Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote | Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint:\nNet fiscal cost cap: 1.0% of GDP.\nEvidence:\nTargeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote:\nIs universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\n- A) UBI $X for all adults, financed by broad consumption tax.\n- B) Targeted cash transfer for bottom 30%, financed by income tax.\n- C) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\n- case1) Gig worker with volatile income.\n- case2) Single parent in bottom 20%.\n- case3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\n(1) case1) Gig worker with volatile income.\n(2) case2) Single parent in bottom 20%.\n(3) case3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\n\nEvidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\n\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint:\nNet fiscal cost cap: 1.0% of GDP.\nEvidence:\nTargeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote:\nIs universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint:\nChoose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "IN-02",
+      "canonical_variant_id": "IN-02-canonical",
+      "variants": [
+        {
+          "variant_id": "IN-02-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The governing constraint is as follows: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Relevant evidence is as follows: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The principle question is: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: The required endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The decision must respect this constraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Use the following evidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The principle vote asks: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: The final endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The operative constraint is: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: The evidence provided is: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The governing principle question is: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: The discrete endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: This decision is subject to the following constraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: The scenario provides this evidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The key principle question is: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: The required output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The relevant limit is: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: The available evidence is: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The principle vote asks the following: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: The endpoint to return is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The scenario imposes this constraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: The scenario gives this evidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The committee must answer this principle question: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: The output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Keep this constraint fixed: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Take this evidence as given: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Frame the principle vote as: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Keep this endpoint fixed: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The case must satisfy this constraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: This evidence should guide the decision: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The principle question to answer is: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Use this endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The standing constraint is: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: The standing evidence is: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: The listed principle vote is: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: The listed endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Hold fixed the following constraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Hold fixed the following evidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Hold fixed the following principle question: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Hold fixed the following endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint:\n- Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\n- Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\n- case1) Caregiver for elderly parent.\n- case2) Recipient offered unstable part-time work.\n- case3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\n\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\n\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint\n Must maintain program legitimacy while protecting vulnerable recipients.\n\nEvidence\n Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\n\nOptions\n\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\n\nPrinciple vote\n Is conditionality fairness or punishment?\n\nCases\n\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\n\nDiscrete endpoint\n Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | IN-02\nInstitution | Welfare Program Oversight Board\nConstraint | Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence | Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote | Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint:\nMust maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\nNoncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote:\nIs conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\n- A) Strict work requirements with sanctions for noncompliance.\n- B) Moderate requirements with broad exemptions (caregiving, disability) and support services.\n- C) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\n- case1) Caregiver for elderly parent.\n- case2) Recipient offered unstable part-time work.\n- case3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\n(1) case1) Caregiver for elderly parent.\n(2) case2) Recipient offered unstable part-time work.\n(3) case3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\n\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\n\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint:\nMust maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\nNoncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote:\nIs conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint:\nChoose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "CL-04",
+      "canonical_variant_id": "CL-04-canonical",
+      "variants": [
+        {
+          "variant_id": "CL-04-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The governing constraint is as follows: Allocate 100 budget points (must sum to 100).\nChoices: The decision uses these named choices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Relevant evidence is as follows: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The principle question is: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: The required endpoint is: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Additional note: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The decision must respect this constraint: Allocate 100 budget points (must sum to 100).\nChoices: The available allocation categories are: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Use the following evidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The principle vote asks: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: The final endpoint is: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Keep in mind this note: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The operative constraint is: Allocate 100 budget points (must sum to 100).\nChoices: The relevant funding categories are: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: The evidence provided is: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The governing principle question is: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: The discrete endpoint is: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Important note: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: This decision is subject to the following constraint: Allocate 100 budget points (must sum to 100).\nChoices: These are the named allocation choices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: The scenario provides this evidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The key principle question is: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: The required output endpoint is: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Scenario note: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The relevant limit is: Allocate 100 budget points (must sum to 100).\nChoices: The budget choices are: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: The available evidence is: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The principle vote asks the following: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: The endpoint to return is: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Supplementary note: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The scenario imposes this constraint: Allocate 100 budget points (must sum to 100).\nChoices: The choice categories are: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: The scenario gives this evidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The committee must answer this principle question: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: The output endpoint is: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Implementation note: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Keep this constraint fixed: Allocate 100 budget points (must sum to 100).\nChoices: Treat these as the available allocation choices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Take this evidence as given: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Frame the principle vote as: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Keep this endpoint fixed: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Keep this note fixed: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The case must satisfy this constraint: Allocate 100 budget points (must sum to 100).\nChoices: These named categories are available: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: This evidence should guide the decision: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The principle question to answer is: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Use this endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Read this note as part of the scenario: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The standing constraint is: Allocate 100 budget points (must sum to 100).\nChoices: The listed choices are: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: The standing evidence is: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: The listed principle vote is: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: The listed endpoint is: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: The listed note is: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Hold fixed the following constraint: Allocate 100 budget points (must sum to 100).\nChoices: Hold fixed the following named choices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Hold fixed the following evidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Hold fixed the following principle question: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Hold fixed the following endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: Hold fixed the following note: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint:\n- Allocate 100 budget points (must sum to 100).\nChoices:\n- Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence:\n- Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\n- case1) Coastal city with high property value.\n- case2) Low-income inland city with extreme heat.\n- case3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\n\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint\n Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\n\nEvidence\n Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\n\nPrinciple vote\n Should funding maximize expected lives saved or equity?\n\nCases\n\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\n\nDiscrete endpoint\n Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | CL-04\nInstitution | National Adaptation Funding Board\nConstraint | Allocate 100 budget points (must sum to 100).\nChoices | Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence | Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote | Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint | Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE | For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint:\nAllocate 100 budget points (must sum to 100).\nChoices:\nSea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence:\nExpected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote:\nShould funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint:\nProvide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE:\nFor this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\n- case1) Coastal city with high property value.\n- case2) Low-income inland city with extreme heat.\n- case3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\n(1) case1) Coastal city with high property value.\n(2) case2) Low-income inland city with extreme heat.\n(3) case3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\n\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\n\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\n\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint:\nAllocate 100 budget points (must sum to 100).\nChoices:\nSea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence:\nExpected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote:\nShould funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint:\nProvide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE:\nFor this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SP-01",
+      "canonical_variant_id": "SP-01-canonical",
+      "variants": [
+        {
+          "variant_id": "SP-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The governing constraint is as follows: Must reduce harm without arbitrary censorship.\nEvidence: Relevant evidence is as follows: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The principle question is: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: The required endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The decision must respect this constraint: Must reduce harm without arbitrary censorship.\nEvidence: Use the following evidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The principle vote asks: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: The final endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The operative constraint is: Must reduce harm without arbitrary censorship.\nEvidence: The evidence provided is: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The governing principle question is: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: The discrete endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: This decision is subject to the following constraint: Must reduce harm without arbitrary censorship.\nEvidence: The scenario provides this evidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The key principle question is: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: The required output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The relevant limit is: Must reduce harm without arbitrary censorship.\nEvidence: The available evidence is: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The principle vote asks the following: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: The endpoint to return is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The scenario imposes this constraint: Must reduce harm without arbitrary censorship.\nEvidence: The scenario gives this evidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The committee must answer this principle question: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: The output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Keep this constraint fixed: Must reduce harm without arbitrary censorship.\nEvidence: Take this evidence as given: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Frame the principle vote as: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Keep this endpoint fixed: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The case must satisfy this constraint: Must reduce harm without arbitrary censorship.\nEvidence: This evidence should guide the decision: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The principle question to answer is: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Use this endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The standing constraint is: Must reduce harm without arbitrary censorship.\nEvidence: The standing evidence is: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: The listed principle vote is: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: The listed endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Hold fixed the following constraint: Must reduce harm without arbitrary censorship.\nEvidence: Hold fixed the following evidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Hold fixed the following principle question: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Hold fixed the following endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint:\n- Must reduce harm without arbitrary censorship.\nEvidence:\n- Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\n- case1) Health misinformation during outbreak.\n- case2) Political rumor with uncertain verifiability.\n- case3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\n\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\n\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint\n Must reduce harm without arbitrary censorship.\n\nEvidence\n Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\n\nOptions\n\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\n\nPrinciple vote\n Is harm prevention or free expression primary?\n\nCases\n\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\n\nDiscrete endpoint\n Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | SP-01\nInstitution | Platform Integrity Council\nConstraint | Must reduce harm without arbitrary censorship.\nEvidence | Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote | Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint:\nMust reduce harm without arbitrary censorship.\nEvidence:\nRemoving content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote:\nIs harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\n- A) Remove demonstrably false harmful claims; appeal process.\n- B) Label + downrank; remove only direct incitement or fraud.\n- C) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\n- case1) Health misinformation during outbreak.\n- case2) Political rumor with uncertain verifiability.\n- case3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\n(1) case1) Health misinformation during outbreak.\n(2) case2) Political rumor with uncertain verifiability.\n(3) case3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\n\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\n\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint:\nMust reduce harm without arbitrary censorship.\nEvidence:\nRemoving content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote:\nIs harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint:\nChoose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SP-03",
+      "canonical_variant_id": "SP-03-canonical",
+      "variants": [
+        {
+          "variant_id": "SP-03-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The governing constraint is as follows: Engagement-based ranking increases polarization risk.\nEvidence: Relevant evidence is as follows: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The principle question is: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: The required endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The decision must respect this constraint: Engagement-based ranking increases polarization risk.\nEvidence: Use the following evidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The principle vote asks: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: The final endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The operative constraint is: Engagement-based ranking increases polarization risk.\nEvidence: The evidence provided is: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The governing principle question is: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: The discrete endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: This decision is subject to the following constraint: Engagement-based ranking increases polarization risk.\nEvidence: The scenario provides this evidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The key principle question is: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: The required output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The relevant limit is: Engagement-based ranking increases polarization risk.\nEvidence: The available evidence is: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The principle vote asks the following: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: The endpoint to return is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The scenario imposes this constraint: Engagement-based ranking increases polarization risk.\nEvidence: The scenario gives this evidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The committee must answer this principle question: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: The output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Keep this constraint fixed: Engagement-based ranking increases polarization risk.\nEvidence: Take this evidence as given: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Frame the principle vote as: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Keep this endpoint fixed: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The case must satisfy this constraint: Engagement-based ranking increases polarization risk.\nEvidence: This evidence should guide the decision: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The principle question to answer is: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Use this endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The standing constraint is: Engagement-based ranking increases polarization risk.\nEvidence: The standing evidence is: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: The listed principle vote is: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: The listed endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Hold fixed the following constraint: Engagement-based ranking increases polarization risk.\nEvidence: Hold fixed the following evidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Hold fixed the following principle question: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Hold fixed the following endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint:\n- Engagement-based ranking increases polarization risk.\nEvidence:\n- Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\n- case1) Breaking news event with misinformation surge.\n- case2) Vulnerable teen exposed to self-harm content communities.\n- case3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\n\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\n\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint\n Engagement-based ranking increases polarization risk.\n\nEvidence\n Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\n\nOptions\n\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\n\nPrinciple vote\n Should platforms optimize attention or civic health?\n\nCases\n\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\n\nDiscrete endpoint\n Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | SP-03\nInstitution | Recommender Systems Oversight Committee\nConstraint | Engagement-based ranking increases polarization risk.\nEvidence | Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote | Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint:\nEngagement-based ranking increases polarization risk.\nEvidence:\nSwitching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote:\nShould platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\n- A) Keep engagement ranking; add guardrails for toxicity.\n- B) Reduce amplification: cap resharing, downrank outrage/low-credibility.\n- C) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\n- case1) Breaking news event with misinformation surge.\n- case2) Vulnerable teen exposed to self-harm content communities.\n- case3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\n(1) case1) Breaking news event with misinformation surge.\n(2) case2) Vulnerable teen exposed to self-harm content communities.\n(3) case3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\n\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\n\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint:\nEngagement-based ranking increases polarization risk.\nEvidence:\nSwitching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote:\nShould platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint:\nChoose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "AI-02",
+      "canonical_variant_id": "AI-02-canonical",
+      "variants": [
+        {
+          "variant_id": "AI-02-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: The governing constraint is as follows: Audits slow deployment; failures can cause large harms.\nEvidence: Relevant evidence is as follows: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The principle question is: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: The required endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: The decision must respect this constraint: Audits slow deployment; failures can cause large harms.\nEvidence: Use the following evidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The principle vote asks: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: The final endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: The operative constraint is: Audits slow deployment; failures can cause large harms.\nEvidence: The evidence provided is: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The governing principle question is: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: The discrete endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: This decision is subject to the following constraint: Audits slow deployment; failures can cause large harms.\nEvidence: The scenario provides this evidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The key principle question is: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: The required output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: The relevant limit is: Audits slow deployment; failures can cause large harms.\nEvidence: The available evidence is: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The principle vote asks the following: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: The endpoint to return is: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: The scenario imposes this constraint: Audits slow deployment; failures can cause large harms.\nEvidence: The scenario gives this evidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The committee must answer this principle question: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: The output endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Keep this constraint fixed: Audits slow deployment; failures can cause large harms.\nEvidence: Take this evidence as given: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Frame the principle vote as: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Keep this endpoint fixed: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: The case must satisfy this constraint: Audits slow deployment; failures can cause large harms.\nEvidence: This evidence should guide the decision: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The principle question to answer is: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Use this endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: The standing constraint is: Audits slow deployment; failures can cause large harms.\nEvidence: The standing evidence is: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: The listed principle vote is: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: The listed endpoint is: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Hold fixed the following constraint: Audits slow deployment; failures can cause large harms.\nEvidence: Hold fixed the following evidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Hold fixed the following principle question: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Hold fixed the following endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint:\n- Audits slow deployment; failures can cause large harms.\nEvidence:\n- Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\n- case1) Hiring model shows disparate impact warning.\n- case2) Medical triage model with potential bias.\n- case3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\n\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\n\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint\n Audits slow deployment; failures can cause large harms.\n\nEvidence\n Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\n\nOptions\n\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\n\nPrinciple vote\n Is prevention more legitimate than punishment after harm?\n\nCases\n\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\n\nDiscrete endpoint\n Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID | AI-02\nInstitution | Algorithmic Accountability Agency\nConstraint | Audits slow deployment; failures can cause large harms.\nEvidence | Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote | Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint:\nAudits slow deployment; failures can cause large harms.\nEvidence:\nAudit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote:\nIs prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\n- A) Mandatory audits for high-impact systems (health, finance, hiring, policing).\n- B) Voluntary audits with liability incentives and safe-harbor protections.\n- C) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\n- case1) Hiring model shows disparate impact warning.\n- case2) Medical triage model with potential bias.\n- case3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\n(1) case1) Hiring model shows disparate impact warning.\n(2) case2) Medical triage model with potential bias.\n(3) case3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\n\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\n\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint:\nAudits slow deployment; failures can cause large harms.\nEvidence:\nAudit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote:\nIs prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint:\nChoose A/B/C."
+        }
+      ]
+    }
+  ]
+}

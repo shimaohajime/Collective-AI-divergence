@@ -1,0 +1,11 @@
+# Analysis and deployed-API runner (Python 3.11)
+numpy
+scipy
+matplotlib
+openai
+anthropic
+
+# Deterministic hosted extension (requires a CUDA-compatible PyTorch build)
+torch
+transformers
+accelerate

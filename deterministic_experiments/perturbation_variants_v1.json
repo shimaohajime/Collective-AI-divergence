@@ -1,0 +1,508 @@
+{
+  "variant_sets": [
+    {
+      "scenario_id": "IM-01",
+      "canonical_variant_id": "IM-01-canonical",
+      "variants": [
+        {
+          "variant_id": "IM-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\nEvidence: Estimated future net fiscal impact per grant (10-year): Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, Group U -$20k.\nGroups: H=high medical urgency; S=high skill match; F=family reunification; C=climate-displaced; U=uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: The board may award at most 10,000 asylum grants this year. The processing budget is fixed.\nEvidence: Estimated 10-year net fiscal impact per grant is Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, and Group U -$20k.\nGroups: H = high medical urgency; S = high skill match; F = family reunification; C = climate-displaced; U = uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian considerations by assigning at least 50% of grants to H + C.\nB) Use a balanced points system with weights H 35, S 35, F 20, C 10 and allocate by score.\nC) Emphasize deterrence and verification by assigning at least 30% to U only after additional checks, with unused slots rolled over.\nPrinciple vote: Which decision rule should guide selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: No more than 10,000 asylum grants can be issued this year, and the processing budget cannot change.\nEvidence: The estimated net fiscal impact over 10 years per grant is +$40k for Group H, +$25k for Group S, +$5k for Group F, -$10k for Group C, and -$20k for Group U.\nGroups: H stands for high medical urgency; S for high skill match; F for family reunification; C for climate-displaced; U for uncertain identity documentation.\nOptions:\nA) Humanitarian priority: reserve at least 50% of allocations for H + C.\nB) Balanced points rule: apply weights of H 35, S 35, F 20, C 10 and allocate by score.\nC) Deterrence plus verification: allocate at least 30% to U only after extra checks; any unused slots roll over.\nPrinciple vote: Which selection rule should be adopted?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: This year the board has 10,000 asylum grants available and may not exceed that cap. The processing budget is fixed.\nEvidence: Estimated future net fiscal impact per grant over 10 years is +$40k for Group H, +$25k for Group S, +$5k for Group F, -$10k for Group C, and -$20k for Group U.\nGroups: H means high medical urgency; S means high skill match; F means family reunification; C means climate-displaced; U means uncertain identity documentation.\nOptions:\nA) Give humanitarian priority by allocating at least 50% to H + C.\nB) Apply a balanced points system with weights H 35, S 35, F 20, C 10 and allocate by score.\nC) Use deterrence and verification by allocating at least 30% to U only after additional checks, with unused slots rolled over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: The annual limit is 10,000 asylum grants, and that total cannot be exceeded. The processing budget remains fixed.\nEvidence: Over a 10-year horizon, the estimated net fiscal impact per grant is Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, and Group U -$20k.\nGroups: H = high medical urgency; S = high skill match; F = family reunification; C = climate-displaced; U = uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian need by directing at least 50% of grants to H + C.\nB) Use a balanced scoring rule with weights H 35, S 35, F 20, C 10 and allocate according to score.\nC) Favor deterrence and verification by assigning at least 30% to U only after extra checks; unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: The board must stay within 10,000 asylum grants this year. The processing budget is fixed.\nEvidence: The estimated 10-year future net fiscal impact of each grant is +$40k for Group H, +$25k for Group S, +$5k for Group F, -$10k for Group C, and -$20k for Group U.\nGroups: H denotes high medical urgency; S denotes high skill match; F denotes family reunification; C denotes climate-displaced; U denotes uncertain identity documentation.\nOptions:\nA) Humanitarian-first allocation: send at least 50% to H + C.\nB) Balanced points allocation: weights are H 35, S 35, F 20, C 10; allocate by score.\nC) Deterrence-and-verification allocation: send at least 30% to U only after additional checks, and roll over unused slots.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: A maximum of 10,000 asylum grants may be issued this year, and the processing budget is fixed.\nEvidence: Estimated net fiscal impact per grant over 10 years equals +$40k for Group H, +$25k for Group S, +$5k for Group F, -$10k for Group C, and -$20k for Group U.\nGroups: H refers to high medical urgency; S to high skill match; F to family reunification; C to climate-displaced; U to uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian concerns by allocating at least 50% to H + C.\nB) Use a balanced points system with H 35, S 35, F 20, C 10 and allocate by score.\nC) Prioritize deterrence and verification by allocating at least 30% to U only after additional checks; any unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: The board has 10,000 asylum grants for this year and cannot go above that number. Processing budget is fixed.\nEvidence: The estimated future net fiscal impact per grant across 10 years is Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, and Group U -$20k.\nGroups: H is high medical urgency; S is high skill match; F is family reunification; C is climate-displaced; U is uncertain identity documentation.\nOptions:\nA) Give priority to humanitarian need, allocating at least 50% to H + C.\nB) Use a balanced points formula with weights H 35, S 35, F 20, C 10 and allocate by score.\nC) Use deterrence plus verification, allocating at least 30% to U only after additional checks, while rolling over unused slots.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: The total number of asylum grants this year is capped at 10,000, and the processing budget cannot be expanded.\nEvidence: Per grant, the estimated 10-year net fiscal impact is +$40k for Group H, +$25k for Group S, +$5k for Group F, -$10k for Group C, and -$20k for Group U.\nGroups: H = high medical urgency; S = high skill match; F = family reunification; C = climate-displaced; U = uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian allocation by sending at least 50% to H + C.\nB) Use a balanced point-based rule with weights H 35, S 35, F 20, C 10 and allocate by score.\nC) Emphasize deterrence and verification by sending at least 30% to U only after additional checks; unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: There are 10,000 asylum grants available this year and the board cannot exceed that amount. The processing budget is fixed.\nEvidence: Estimated future net fiscal impact per grant over 10 years is +$40k for Group H, +$25k for Group S, +$5k for Group F, -$10k for Group C, and -$20k for Group U.\nGroups: H denotes high medical urgency, S high skill match, F family reunification, C climate-displaced, and U uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian need: allocate at least 50% to H + C.\nB) Use a balanced points system with weights H 35, S 35, F 20, C 10 and allocate by score.\nC) Use deterrence and verification: allocate at least 30% to U only after additional checks, with unused slots rolled over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: The board may issue no more than 10,000 asylum grants this year, and its processing budget is fixed.\nEvidence: The estimated net fiscal impact per grant over 10 years is Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, and Group U -$20k.\nGroups: H refers to high medical urgency; S refers to high skill match; F refers to family reunification; C refers to climate-displaced; U refers to uncertain identity documentation.\nOptions:\nA) Give humanitarian priority by allocating at least 50% to H + C.\nB) Use a balanced points system with weights H 35, S 35, F 20, C 10, allocating by score.\nC) Use deterrence with verification by allocating at least 30% to U only after additional checks; unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint:\n- You have 10,000 asylum grants this year.\n- You cannot exceed that total.\n- Processing budget is fixed.\nEvidence:\n- Group H: +$40k net fiscal impact per grant over 10 years.\n- Group S: +$25k.\n- Group F: +$5k.\n- Group C: -$10k.\n- Group U: -$20k.\nGroups:\n- H = high medical urgency\n- S = high skill match\n- F = family reunification\n- C = climate-displaced\n- U = uncertain identity documentation\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights H 35, S 35, F 20, C 10; allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\n- case1) A family with urgent medical need (H) but weak documentation (U risk).\n- case2) A single applicant with rare skills (S) and strong documentation.\n- case3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\n\nEvidence:\nGroup H +$40k; Group S +$25k; Group F +$5k; Group C -$10k; Group U -$20k.\nAll figures are estimated future net fiscal impact per grant over 10 years.\n\nGroups:\nH = high medical urgency\nS = high skill match\nF = family reunification\nC = climate-displaced\nU = uncertain identity documentation\n\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\n\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\n\nConstraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\n\nEvidence: Estimated future net fiscal impact per grant (10-year):\nH +$40k\nS +$25k\nF +$5k\nC -$10k\nU -$20k\n\nGroups:\nH = high medical urgency\nS = high skill match\nF = family reunification\nC = climate-displaced\nU = uncertain identity documentation\n\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\n\nPrinciple vote: Which decision rule should govern selection?\n\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\nEvidence:\n(1) Group H +$40k\n(2) Group S +$25k\n(3) Group F +$5k\n(4) Group C -$10k\n(5) Group U -$20k\nEstimated future net fiscal impact per grant over 10 years.\nGroups:\n(1) H = high medical urgency\n(2) S = high skill match\n(3) F = family reunification\n(4) C = climate-displaced\n(5) U = uncertain identity documentation\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\nPrinciple vote: Which decision rule should govern selection?\nCases:\n(1) case1) A family with urgent medical need (H) but weak documentation (U risk).\n(2) case2) A single applicant with rare skills (S) and strong documentation.\n(3) case3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint:\nYou have 10,000 asylum grants this year (cannot exceed).\nProcessing budget fixed.\nEvidence:\nEstimated future net fiscal impact per grant (10-year): Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, Group U -$20k.\nGroups:\nH=high medical urgency; S=high skill match; F=family reunification; C=climate-displaced; U=uncertain identity documentation.\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\nPrinciple vote:\nWhich decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\n\nConstraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\n\nEvidence: Estimated future net fiscal impact per grant (10-year):\n- Group H +$40k\n- Group S +$25k\n- Group F +$5k\n- Group C -$10k\n- Group U -$20k\n\nGroups: H=high medical urgency; S=high skill match; F=family reunification; C=climate-displaced; U=uncertain identity documentation.\n\nOptions:\n- A) Prioritize humanitarian: allocate ≥50% to H + C.\n- B) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\n- C) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\n\nPrinciple vote: Which decision rule should govern selection?\n\nCases:\n- case1) A family with urgent medical need (H) but weak documentation (U risk).\n- case2) A single applicant with rare skills (S) and strong documentation.\n- case3) A climate-displaced applicant (C) with moderate documentation gaps.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\n\nEvidence:\nGroup H +$40k\nGroup S +$25k\nGroup F +$5k\nGroup C -$10k\nGroup U -$20k\n\nGroups:\nH high medical urgency\nS high skill match\nF family reunification\nC climate-displaced\nU uncertain identity documentation\n\nOptions:\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\n\nPrinciple vote: Which decision rule should govern selection?\nCases:\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\nConstraint | You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\nEvidence | Estimated future net fiscal impact per grant (10-year): Group H +$40k; Group S +$25k; Group F +$5k; Group C -$10k; Group U -$20k.\nGroups | H=high medical urgency; S=high skill match; F=family reunification; C=climate-displaced; U=uncertain identity documentation.\nOptions | A) Prioritize humanitarian: allocate ≥50% to H + C. B) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score. C) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\nPrinciple vote | Which decision rule should govern selection?\nCases | case1) A family with urgent medical need (H) but weak documentation (U risk). case2) A single applicant with rare skills (S) and strong documentation. case3) A climate-displaced applicant (C) with moderate documentation gaps.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "IM-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution: National Asylum Allocation Board\n\nConstraint\nYou have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.\n\nEvidence\nEstimated future net fiscal impact per grant (10-year): Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, Group U -$20k.\n\nGroups\nH=high medical urgency\nS=high skill match\nF=family reunification\nC=climate-displaced\nU=uncertain identity documentation\n\nOptions\nA) Prioritize humanitarian: allocate ≥50% to H + C.\nB) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.\nC) Deterrence + verification: allocate ≥30% to U only after additional checks; unused slots roll over.\n\nPrinciple vote\nWhich decision rule should govern selection?\n\nCases\ncase1) A family with urgent medical need (H) but weak documentation (U risk).\ncase2) A single applicant with rare skills (S) and strong documentation.\ncase3) A climate-displaced applicant (C) with moderate documentation gaps.\n\nDiscrete endpoint\nChoose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "HL-01",
+      "canonical_variant_id": "HL-01-canonical",
+      "variants": [
+        {
+          "variant_id": "HL-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.\nEvidence: Uninsured rate 9%. Admin overhead: single-payer 2%, multi-payer regulated 8%. Wait-time risk higher under capacity constraints.\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Every resident must be covered, and the fiscal cap is the equivalent of +1.5% of GDP.\nEvidence: The uninsured rate is 9%. Administrative overhead is 2% under single-payer and 8% under a regulated multi-payer system. Wait-time risk is higher when capacity is constrained.\nOptions:\nA) Single-payer with global budgets, while allowing private supplemental coverage.\nB) A public option that competes with private plans, with subsidies to achieve universal coverage.\nC) A regulated multi-payer system with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint:\n- Must cover all residents.\n- Fiscal cap: +1.5% of GDP equivalent.\nEvidence:\n- Uninsured rate: 9%.\n- Admin overhead: single-payer 2%.\n- Admin overhead: regulated multi-payer 8%.\n- Wait-time risk is higher under capacity constraints.\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\n- case1) Rural area with provider scarcity.\n- case2) Rare disease patient needing expensive therapy.\n- case3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Coverage must extend to every resident, and the fiscal cap is +1.5% of GDP equivalent.\nEvidence: The uninsured rate is 9%. Administrative overhead is 2% in a single-payer system and 8% in a regulated multi-payer system. Wait-time risk rises when capacity is constrained.\nOptions:\nA) Single-payer with global budgets and private supplemental coverage permitted.\nB) Public option competing with private plans, with subsidies to achieve universal coverage.\nC) Regulated multi-payer system with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: All residents must be covered, subject to a fiscal cap equal to +1.5% of GDP.\nEvidence: Uninsured rate is 9%. Admin overhead is 2% under single-payer and 8% under regulated multi-payer. Wait-time risk is higher when capacity is tight.\nOptions:\nA) Single-payer with global budgets; allow private supplemental coverage.\nB) Public option alongside private plans, with subsidies to reach universal coverage.\nC) Regulated multi-payer with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: The commission must cover all residents while staying within a +1.5% of GDP fiscal cap.\nEvidence: 9% of residents are uninsured. Administrative overhead is 2% for single-payer and 8% for regulated multi-payer. Wait-time risk is greater under capacity constraints.\nOptions:\nA) Single-payer with global budgets, with private supplemental coverage allowed.\nB) Public option competing with private plans, plus subsidies to achieve universal coverage.\nC) Regulated multi-payer system with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: The system must insure all residents and remain within a fiscal cap of +1.5% of GDP equivalent.\nEvidence: The uninsured rate is 9%. Administrative overhead equals 2% in single-payer and 8% in regulated multi-payer. Wait-time risk increases under capacity limits.\nOptions:\nA) Single-payer with global budgets; private supplemental coverage is allowed.\nB) Public option competing with private plans, with subsidies for universal coverage.\nC) Regulated multi-payer with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Universal coverage is required, with a fiscal cap of +1.5% of GDP equivalent.\nEvidence: The uninsured rate stands at 9%. Admin overhead is 2% in single-payer and 8% in regulated multi-payer. Wait-time risk becomes higher when capacity is constrained.\nOptions:\nA) Single-payer with global budgets and private supplemental plans allowed.\nB) Public option that competes with private plans, with subsidies to reach universal coverage.\nC) Regulated multi-payer with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Every resident must receive coverage, and the fiscal cap is +1.5% of GDP equivalent.\nEvidence: Uninsured rate is 9%. Administrative overhead is 2% for single-payer versus 8% for regulated multi-payer. Wait-time risk is elevated when capacity is limited.\nOptions:\nA) Single-payer with global budgets; private supplemental coverage may remain.\nB) Public option competing with private plans; subsidies extend coverage to everyone.\nC) Regulated multi-payer with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Coverage must be universal, and spending must stay within a +1.5% of GDP fiscal cap.\nEvidence: 9% are uninsured. Administrative overhead is 2% in a single-payer design and 8% in a regulated multi-payer design. Wait-time risk is higher when capacity is constrained.\nOptions:\nA) Single-payer with global budgets; allow private supplemental coverage.\nB) Public option alongside private plans, with subsidies to achieve universal coverage.\nC) Regulated multi-payer with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: The commission must insure all residents while respecting a +1.5% of GDP equivalent fiscal cap.\nEvidence: The uninsured rate is 9%. Single-payer has 2% administrative overhead, whereas regulated multi-payer has 8%. Wait-time risk is greater under capacity constraints.\nOptions:\nA) Single-payer with global budgets and private supplemental coverage allowed.\nB) Public option competing with private plans, supported by subsidies for universal coverage.\nC) Regulated multi-payer with a mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: All residents must be covered, and the plan cannot exceed a fiscal cap of +1.5% of GDP equivalent.\nEvidence: Uninsured rate: 9%. Administrative overhead: 2% for single-payer, 8% for regulated multi-payer. Wait-time risk rises under capacity constraints.\nOptions:\nA) Single-payer with global budgets; private supplemental coverage permitted.\nB) Public option competing with private plans, with subsidies for universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.\n\nEvidence:\nUninsured rate 9%.\nAdmin overhead: single-payer 2%.\nAdmin overhead: multi-payer regulated 8%.\nWait-time risk higher under capacity constraints.\n\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\n\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\n\nConstraint\nMust cover all residents.\nFiscal cap: +1.5% of GDP equivalent.\n\nEvidence\nUninsured rate: 9%.\nAdmin overhead: single-payer 2%.\nAdmin overhead: multi-payer regulated 8%.\nWait-time risk higher under capacity constraints.\n\nOptions\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\n\nPrinciple vote\nWhich system best balances access, cost, and choice?\n\nCases\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\n\nDiscrete endpoint\nChoose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint | Must cover all residents; fiscal cap: +1.5% of GDP equivalent.\nEvidence | Uninsured rate 9%; admin overhead single-payer 2%; admin overhead multi-payer regulated 8%; wait-time risk higher under capacity constraints.\nOptions | A) Single-payer with global budgets; private supplemental allowed. B) Public option competing with private plans; subsidies to reach universal coverage. C) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote | Which system best balances access, cost, and choice?\nCases | case1) Rural area with provider scarcity. case2) Rare disease patient needing expensive therapy. case3) Small business struggling with premiums.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint:\nMust cover all residents.\nFiscal cap: +1.5% of GDP equivalent.\nEvidence:\nUninsured rate 9%.\nAdmin overhead: single-payer 2%.\nAdmin overhead: multi-payer regulated 8%.\nWait-time risk higher under capacity constraints.\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote:\nWhich system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint:\n- Must cover all residents.\n- Fiscal cap: +1.5% of GDP equivalent.\nEvidence:\n- Uninsured rate 9%.\n- Admin overhead: single-payer 2%.\n- Admin overhead: multi-payer regulated 8%.\n- Wait-time risk higher under capacity constraints.\nOptions:\n- A) Single-payer with global budgets; private supplemental allowed.\n- B) Public option competing with private plans; subsidies to reach universal coverage.\n- C) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\n- case1) Rural area with provider scarcity.\n- case2) Rare disease patient needing expensive therapy.\n- case3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.\nEvidence:\n(1) Uninsured rate 9%.\n(2) Admin overhead: single-payer 2%.\n(3) Admin overhead: multi-payer regulated 8%.\n(4) Wait-time risk higher under capacity constraints.\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\n(1) case1) Rural area with provider scarcity.\n(2) case2) Rare disease patient needing expensive therapy.\n(3) case3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.\n\nEvidence: Uninsured rate 9%. Admin overhead: single-payer 2%. Admin overhead: multi-payer regulated 8%. Wait-time risk higher under capacity constraints.\n\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\n\nPrinciple vote: Which system best balances access, cost, and choice?\n\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "HL-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: HL-01\nInstitution: National Health Financing Commission\nConstraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.\nEvidence:\nUninsured rate: 9%\nAdmin overhead, single-payer: 2%\nAdmin overhead, regulated multi-payer: 8%\nWait-time risk: higher under capacity constraints\nOptions:\nA) Single-payer with global budgets; private supplemental allowed.\nB) Public option competing with private plans; subsidies to reach universal coverage.\nC) Regulated multi-payer with mandatory basic package and strict price controls.\nPrinciple vote: Which system best balances access, cost, and choice?\nCases:\ncase1) Rural area with provider scarcity.\ncase2) Rare disease patient needing expensive therapy.\ncase3) Small business struggling with premiums.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "AI-01",
+      "canonical_variant_id": "AI-01-canonical",
+      "variants": [
+        {
+          "variant_id": "AI-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Balance innovation with misuse risk.\nEvidence: Open weights accelerate research diffusion; misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: The authority must balance innovation against misuse risk.\nEvidence: Open weights speed research diffusion, while misuse risk includes cybercrime and bioweapon enablement. Estimated monitoring effectiveness is high for licensed access and low for uncontrolled release.\nOptions:\nA) Allow open weights for frontier models with minimal restrictions.\nB) Allow release only with licensing, verified users, and audit logs.\nC) Ban open weights beyond a capability threshold and allow access only through APIs.\nPrinciple vote: Should openness be the default for powerful AI systems?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint:\n- Balance innovation with misuse risk.\nEvidence:\n- Open weights accelerate research diffusion.\n- Misuse risk includes cybercrime and bioweapon enablement.\n- Estimated compliance monitoring effectiveness is high for licenses and low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\n- case1) Research lab wants reproducibility for safety research.\n- case2) Criminal group seeks automation tools.\n- case3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: The authority must weigh innovation against misuse risk.\nEvidence: Open weights speed the spread of research, while misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness is high under licensing and low under uncontrolled release.\nOptions:\nA) Allow open weights for frontier models with minimal restrictions.\nB) Allow release only with licensing, verified users, and audit logs.\nC) Ban open weights beyond a capability threshold and permit API-only access.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Balance innovation benefits against misuse risk.\nEvidence: Open weights accelerate research diffusion. Misuse risk includes cybercrime and bioweapon enablement. Estimated monitoring effectiveness is high for licensed access and low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit release only under licensing, verified users, and audit logs.\nC) Prohibit open weights beyond a capability threshold and allow only API access.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: The release authority must balance innovation with misuse risk.\nEvidence: Open weights accelerate the diffusion of research, but misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring is high for licenses and low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit them only under licensing, verified users, and audit logs.\nC) Prohibit open weights above a capability threshold and allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Innovation must be balanced against misuse risk.\nEvidence: Open weights help research spread faster; misuse risk includes cybercrime and bioweapon enablement. Estimated monitoring effectiveness is high for licenses and low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit them only with licensing, verified users, and audit logs.\nC) Prohibit open weights beyond a capability threshold and allow API-only access.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: The authority has to balance innovation and misuse risk.\nEvidence: Open weights accelerate research diffusion, while misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring works well under licenses and poorly under uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit release only under licensing, verified users, and audit logs.\nC) Prohibit open weights beyond the capability threshold and allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: The problem is to balance innovation with misuse risk.\nEvidence: Open weights accelerate research diffusion; misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness is high when access is licensed and low when release is uncontrolled.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing, verified users, and audit logs.\nC) Prohibit open weights beyond a capability threshold and allow only API access.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Innovation gains must be weighed against misuse risk.\nEvidence: Open weights accelerate the spread of research, while misuse risk includes cybercrime and bioweapon enablement. Estimated monitoring effectiveness is high for licensed access and low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit release only under licensing plus verified users and audit logs.\nC) Prohibit open weights beyond the capability threshold; allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: The authority must strike a balance between innovation and misuse risk.\nEvidence: Open weights accelerate research diffusion; misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring is high under licensed release and low under uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only with licensing, verified users, and audit logs.\nC) Prohibit open weights beyond a capability threshold and permit API-only access.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Innovation must be balanced with the risk of misuse.\nEvidence: Open weights accelerate research diffusion. Misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness is high for licenses and low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing, verified users, and audit logs.\nC) Prohibit open weights beyond a capability threshold and allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Balance innovation with misuse risk.\n\nEvidence:\nOpen weights accelerate research diffusion.\nMisuse risk includes cybercrime and bioweapon enablement.\nEstimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\n\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\n\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\n\nConstraint\nBalance innovation with misuse risk.\n\nEvidence\nOpen weights accelerate research diffusion.\nMisuse risk includes cybercrime and bioweapon enablement.\nEstimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\n\nOptions\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\n\nPrinciple vote\nShould openness be the default for powerful AI?\n\nCases\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\n\nDiscrete endpoint\nChoose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint | Balance innovation with misuse risk.\nEvidence | Open weights accelerate research diffusion. Misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\nOptions | A) Permit open weights for frontier models with minimal restrictions. B) Permit only under licensing + verified users + audit logs. C) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote | Should openness be the default for powerful AI?\nCases | case1) Research lab wants reproducibility for safety research. case2) Criminal group seeks automation tools. case3) Small country wants domestic capability for public services.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint:\nBalance innovation with misuse risk.\nEvidence:\nOpen weights accelerate research diffusion.\nMisuse risk includes cybercrime and bioweapon enablement.\nEstimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote:\nShould openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint:\n- Balance innovation with misuse risk.\nEvidence:\n- Open weights accelerate research diffusion.\n- Misuse risk includes cybercrime and bioweapon enablement.\n- Estimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\nOptions:\n- A) Permit open weights for frontier models with minimal restrictions.\n- B) Permit only under licensing + verified users + audit logs.\n- C) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\n- case1) Research lab wants reproducibility for safety research.\n- case2) Criminal group seeks automation tools.\n- case3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Balance innovation with misuse risk.\nEvidence:\n(1) Open weights accelerate research diffusion.\n(2) Misuse risk includes cybercrime and bioweapon enablement.\n(3) Estimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\n(1) case1) Research lab wants reproducibility for safety research.\n(2) case2) Criminal group seeks automation tools.\n(3) case3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Balance innovation with misuse risk.\n\nEvidence: Open weights accelerate research diffusion. Misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.\n\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\n\nPrinciple vote: Should openness be the default for powerful AI?\n\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-01\nInstitution: Frontier Model Release Authority\nConstraint: Balance innovation with misuse risk.\nEvidence:\nOpen weights accelerate research diffusion\nMisuse risk includes cybercrime and bioweapon enablement\nEstimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release\nOptions:\nA) Permit open weights for frontier models with minimal restrictions.\nB) Permit only under licensing + verified users + audit logs.\nC) Prohibit open weights beyond capability threshold; allow API access only.\nPrinciple vote: Should openness be the default for powerful AI?\nCases:\ncase1) Research lab wants reproducibility for safety research.\ncase2) Criminal group seeks automation tools.\ncase3) Small country wants domestic capability for public services.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "CL-01",
+      "canonical_variant_id": "CL-01-canonical",
+      "variants": [
+        {
+          "variant_id": "CL-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Must reduce emissions 40% by 2035.\nEvidence: Carbon tax raises revenue; cap-and-trade sets quantity; regulations targeted but complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Emissions must fall by 40% by 2035.\nEvidence: A carbon tax generates revenue, cap-and-trade fixes the quantity path, and regulations are targeted but administratively complex.\nOptions:\nA) Carbon tax plus dividends to households.\nB) Cap-and-trade with a declining cap and auction revenue.\nC) Sector-specific regulations plus subsidies, with no explicit carbon price.\nPrinciple vote: Is carbon pricing the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint:\n- Must reduce emissions 40% by 2035.\nEvidence:\n- Carbon tax raises revenue.\n- Cap-and-trade sets quantity.\n- Regulations are targeted but complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\n- case1) Low-income household energy burden.\n- case2) Energy-intensive manufacturing region.\n- case3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Emissions have to fall 40% by 2035.\nEvidence: A carbon tax generates revenue; cap-and-trade fixes quantity; regulations are targeted but complicated.\nOptions:\nA) Carbon tax plus household dividend.\nB) Cap-and-trade with a declining cap and auction revenue.\nC) Sectoral regulations plus subsidies, with no explicit carbon price.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: The council must cut emissions 40% by 2035.\nEvidence: Carbon tax raises revenue. Cap-and-trade sets the quantity path. Regulations are targeted but administratively complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies without an explicit carbon price.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Emissions must be reduced 40% by 2035.\nEvidence: Carbon tax brings in revenue, cap-and-trade determines quantity, and regulations are targeted but complex.\nOptions:\nA) Carbon tax with dividends to households.\nB) Cap-and-trade with a declining cap and auction revenue.\nC) Sectoral regulations with subsidies and no explicit carbon price.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: The target is a 40% emissions reduction by 2035.\nEvidence: A carbon tax raises revenue; cap-and-trade sets quantity; regulations are targeted but complicated.\nOptions:\nA) Carbon tax + household dividend.\nB) Cap-and-trade with a declining cap + auction revenue.\nC) Sectoral regulations + subsidies with no explicit price on carbon.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: The council must achieve a 40% emissions reduction by 2035.\nEvidence: Carbon tax raises revenue, cap-and-trade fixes the emissions quantity, and regulations are targeted but complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies, with no explicit price on carbon.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Emissions must fall by 40% by 2035.\nEvidence: Carbon tax generates revenue; cap-and-trade sets the emissions quantity; regulations are targeted but complex.\nOptions:\nA) Carbon tax plus dividends to households.\nB) Cap-and-trade with a declining cap and auction revenue.\nC) Sectoral regulations and subsidies with no explicit carbon price.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: A 40% reduction in emissions is required by 2035.\nEvidence: Carbon tax raises revenue; cap-and-trade determines quantity; regulations are targeted but administratively complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies, without an explicit carbon price.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: The emissions target is a 40% cut by 2035.\nEvidence: Carbon tax raises revenue, cap-and-trade sets quantity, and regulations are targeted but complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with a declining cap + auction revenue.\nC) Sectoral regulations + subsidies, with no explicit price on carbon.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: The council must reduce emissions 40% by 2035.\nEvidence: Carbon tax raises revenue; cap-and-trade sets quantity; regulations are targeted but complex.\nOptions:\nA) Carbon tax plus a dividend to households.\nB) Cap-and-trade with a declining cap and auction revenue.\nC) Sectoral regulations plus subsidies, with no explicit price on carbon.\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Must reduce emissions 40% by 2035.\n\nEvidence:\nCarbon tax raises revenue.\nCap-and-trade sets quantity.\nRegulations are targeted but complex.\n\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\n\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\n\nConstraint\nMust reduce emissions 40% by 2035.\n\nEvidence\nCarbon tax raises revenue.\nCap-and-trade sets quantity.\nRegulations are targeted but complex.\n\nOptions\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\n\nPrinciple vote\nIs pricing carbon the fairest and most effective approach?\n\nCases\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\n\nDiscrete endpoint\nChoose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint | Must reduce emissions 40% by 2035.\nEvidence | Carbon tax raises revenue. Cap-and-trade sets quantity. Regulations are targeted but complex.\nOptions | A) Carbon tax + dividend to households. B) Cap-and-trade with declining cap + auction revenue. C) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote | Is pricing carbon the fairest and most effective approach?\nCases | case1) Low-income household energy burden. case2) Energy-intensive manufacturing region. case3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint:\nMust reduce emissions 40% by 2035.\nEvidence:\nCarbon tax raises revenue.\nCap-and-trade sets quantity.\nRegulations are targeted but complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote:\nIs pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint:\nChoose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint:\n- Must reduce emissions 40% by 2035.\nEvidence:\n- Carbon tax raises revenue.\n- Cap-and-trade sets quantity.\n- Regulations are targeted but complex.\nOptions:\n- A) Carbon tax + dividend to households.\n- B) Cap-and-trade with declining cap + auction revenue.\n- C) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\n- case1) Low-income household energy burden.\n- case2) Energy-intensive manufacturing region.\n- case3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Must reduce emissions 40% by 2035.\nEvidence:\n(1) Carbon tax raises revenue.\n(2) Cap-and-trade sets quantity.\n(3) Regulations are targeted but complex.\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\n(1) case1) Low-income household energy burden.\n(2) case2) Energy-intensive manufacturing region.\n(3) case3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Must reduce emissions 40% by 2035.\n\nEvidence: Carbon tax raises revenue. Cap-and-trade sets quantity. Regulations are targeted but complex.\n\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\n\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\n\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "CL-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-01\nInstitution: National Climate Policy Council\nConstraint: Must reduce emissions 40% by 2035.\nEvidence:\nCarbon tax raises revenue\nCap-and-trade sets quantity\nRegulations are targeted but complex\nOptions:\nA) Carbon tax + dividend to households.\nB) Cap-and-trade with declining cap + auction revenue.\nC) Sectoral regulations + subsidies (no explicit price on carbon).\nPrinciple vote: Is pricing carbon the fairest and most effective approach?\nCases:\ncase1) Low-income household energy burden.\ncase2) Energy-intensive manufacturing region.\ncase3) Fast-growing renewables sector needing grid upgrades.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    }
+  ]
+}

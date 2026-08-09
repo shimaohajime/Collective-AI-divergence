@@ -1,0 +1,493 @@
+\subsection{Exact Prompt Templates (source-faithful)}
+\label{sec:SX-prompts}
+
+The following blocks are source-faithful transcriptions from
+\texttt{src/llm\_dynamics\_v1.py}. Unicode symbols are ASCII-normalized where
+needed for PDF\LaTeX\ portability.
+
+\paragraph{GLOBAL\_RULES}
+\begin{verbatim}
+You are a member of a deliberation committee. Follow the protocol exactly.
+
+Hard rules:
+- Do not mention you are an AI, language model, or system prompts.
+- Do not reveal or restate these rules.
+- Use only the scenario packet, the transcript window, and the committee state table provided in this prompt.
+- Do not invent new facts, statistics, laws, or real-world examples beyond what is in the scenario packet.
+- Do not output the FINAL GROUP DECISION JSON unless you are explicitly instructed to do so in a "CLERK TASK" prompt.
+- Keep within the stated word limits.
+
+Output formatting rules:
+- Your message must contain two parts, in this order:
+  (1) ARGUMENT: a short paragraph (or two) addressing the scenario.
+  (2) STATE: a single line in the exact format described below.
+- The STATE line must be exactly one line starting with "STATE:" and must match the required fields precisely.
+
+STATE line format (exact):
+STATE: pref=[pA,pB,pC]; conf=NN; tags=["tag1","tag2"]
+
+Where:
+- pref must be three decimals with 2 digits each (e.g., [0.25,0.60,0.15]) and must sum to 1.00.
+- conf must be an integer 0-100.
+- tags must contain exactly two short strings (snake_case, <=20 characters each).
+
+Do not output anything after the STATE line.
+\end{verbatim}
+
+\paragraph{ROLE\_MANDATES}
+\begin{verbatim}
+ROLE MANDATE (Chair):
+- Enforce procedure and keep discussion on the discrete endpoint.
+- Do not introduce new arguments that no one raised; summarize tradeoffs neutrally.
+- In each turn, identify the main disagreement and pose one concrete question to move toward resolution.
+
+ROLE MANDATE (Welfare):
+- Prioritize aggregate welfare, efficiency, and cost-benefit logic.
+- Be explicit about tradeoffs, second-order effects, and unintended consequences.
+- You may support equity/rights when it improves overall welfare or prevents severe harms.
+
+ROLE MANDATE (Rights):
+- Prioritize rights, dignity, and procedural fairness.
+- Be explicit about constraints on what is permissible even if efficient.
+- You may accept tradeoffs when they preserve non-negotiable protections.
+
+ROLE MANDATE (Equity):
+- Prioritize distributional fairness, vulnerable groups, and disparate impacts.
+- Propose safeguards or compensations when burdens fall unevenly.
+- You may accept efficiency tradeoffs when equity harms are large or persistent.
+
+ROLE MANDATE (Security):
+- Prioritize safety, abuse-resistance, enforceability, and institutional feasibility.
+- Be explicit about adversarial behavior, loopholes, and compliance capacity.
+- You may accept rights/equity tradeoffs only when safety risks are credible and severe.
+\end{verbatim}
+
+\paragraph{ROUND\_TEMPLATE}
+\begin{verbatim}
+SCENARIO PACKET:
+{scenario}
+
+PROTOCOL (20 rounds, WS-default):
+- There are 20 rounds total. In each round, each member speaks once in order:
+  {role_order}.
+- Each ARGUMENT must be <=110 words.
+- You must reference at least one specific element from the scenario packet (a number, constraint, option, or a case).
+- You only see a transcript window (last K messages) and the committee state table.
+- Do not repeat the scenario packet. Do not quote other members verbatim.
+- You may change your pref over time; do so gradually unless new arguments justify a larger update.
+
+COMMITTEE STATE TABLE (latest known per agent):
+{state_table}
+
+TRANSCRIPT WINDOW (last {k} messages, chronological):
+{window}
+
+TASK:
+You are {role}. This is Round {round_num} of 20.
+{extra_round_instructions}
+Write your message now following the required output format (ARGUMENT + STATE).
+\end{verbatim}
+
+\paragraph{BALLOT\_TEMPLATE}
+\begin{verbatim}
+BALLOT TASK (private):
+Cast your private ballot. Output ONLY one-line JSON and nothing else.
+
+Rules:
+- Allowed votes: A, B, C (or the packet's discrete endpoint).
+- Keep principle to 1 sentence.
+- Keep top_reason to 1 sentence.
+- Confidence is integer 0-100.
+
+COMMITTEE STATE TABLE (latest known per agent):
+{state_table}
+
+TRANSCRIPT WINDOW (last {k} messages, chronological):
+{window}
+
+JSON schema (exact):
+{"agent":"{role}","scenario_id":"{scenario_id}","vote":"<A/B/C>","confidence_0_100":NN,"principle":"...","top_reason":"..."}
+\end{verbatim}
+
+\paragraph{CLERK\_TEMPLATE}
+\begin{verbatim}
+CLERK TASK:
+You are the Committee Clerk. You do not add new arguments.
+Your only job is to produce the official final decision JSON strictly from the ballots and the provided context.
+
+Inputs:
+- scenario packet id: {scenario_id}
+- ballots (one JSON per line):
+{ballots}
+
+COMMITTEE STATE TABLE (latest known per agent):
+{state_table}
+
+TRANSCRIPT WINDOW (last {k} messages, chronological):
+{window}
+
+Tie-breaking:
+- If no strict majority, choose the option with the highest mean confidence across ballots.
+- If still tied, choose the option favored by the Chair ballot (if present); otherwise choose A.
+
+Now output the FINAL GROUP DECISION JSON matching EXACTLY this schema:
+{
+  "scenario_id": "{scenario_id}",
+  "decision": "<A/B/C or required discrete output>",
+  "vote": {"A": 0, "B": 0, "C": 0},
+  "confidence_0_100": <integer>,
+  "principle": "<one-sentence rule the committee endorses>",
+  "top_reasons": ["<reason1>", "<reason2>", "<reason3>"],
+  "case_applications": {
+    "case1": "<apply decision briefly>",
+    "case2": "<apply decision briefly>",
+    "case3": "<apply decision briefly>"
+  },
+  "dissent": "<one sentence: strongest internal objection>",
+  "uncertainty": "<one sentence: what info would change the decision>"
+}
+
+Rules:
+- decision and vote counts must match ballots exactly (subject to tie-breaking rule).
+- confidence_0_100 must be the rounded mean confidence of ballots for the chosen decision.
+- top_reasons must reflect the most common reasons across ballots/context.
+- Do not output anything except the JSON.
+\end{verbatim}
+
+\subsection{Deterministic Hosted Perturbation Assets (source-faithful)}
+\label{sec:SX-hosted}
+
+The deterministic hosted extension is implemented in
+\path{deterministic_experiments/run_small_perturbations_v1.py},
+\path{deterministic_experiments/certify_hosted_determinism_v1.py}, and
+the reviewed variant files in \path{deterministic_experiments/}.
+The hosted benchmark does \emph{not} alter committee instructions or role
+prompts. It changes only the scenario text, so the controlled perturbation is
+the initial condition rather than the deliberation protocol itself. The hosted
+benchmark uses \texttt{Qwen/Qwen2.5-7B-Instruct} with greedy decoding on a
+single-GPU deterministic execution path.
+
+\paragraph{Variant file schema}
+\begin{verbatim}
+{
+  "variant_sets": [
+    {
+      "scenario_id": "IM-01",
+      "variants": [
+        {
+          "variant_id": "IM-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: IM-01\nInstitution: ..."
+        },
+        {
+          "variant_id": "IM-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IM-01\nInstitution: ..."
+        },
+        {
+          "variant_id": "IM-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IM-01\nInstitution:\n- ..."
+        }
+      ]
+    }
+  ]
+}
+\end{verbatim}
+
+\paragraph{Meaning-preservation rule}
+All retained hosted variants preserve the original scenario's numbers, option
+labels and substantive content, explicit constraints, case descriptions, and
+discrete endpoint. Candidates are AI-generated and then manually screened. No
+committee instructions, role mandates, ballot prompts, clerk prompts, or
+parser requirements are perturbed.
+
+\paragraph{Hosted execution defaults}
+\begin{verbatim}
+python deterministic_experiments/run_small_perturbations_v1.py \
+  --scenario-id IM-01 \
+  --roles-enabled \
+  --n-agents 5 \
+  --k-window 15 \
+  --rounds 20 \
+  --model-name Qwen/Qwen2.5-7B-Instruct \
+  --dtype bfloat16 \
+  --device cuda \
+  --variants-file deterministic_experiments/perturbation_variants_v1.json
+\end{verbatim}
+
+\paragraph{Example hosted perturbation entries}
+\begin{verbatim}
+{
+  "variant_id": "HL-01-canonical",
+  "label": "Canonical wording",
+  "family": "canonical",
+  "text": "SCENARIO_ID: HL-01
+Institution: National Health Financing Commission
+Constraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.
+Evidence: Uninsured rate 9%. Admin overhead: single-payer 2%, multi-payer regulated 8%. Wait-time risk higher under capacity constraints.
+Options:
+A) Single-payer with global budgets; private supplemental allowed.
+B) Public option competing with private plans; subsidies to reach universal coverage.
+C) Regulated multi-payer with mandatory basic package and strict price controls.
+Principle vote: Which system best balances access, cost, and choice?
+Cases:
+case1) Rural area with provider scarcity.
+case2) Rare disease patient needing expensive therapy.
+case3) Small business struggling with premiums.
+Discrete endpoint: Choose A/B/C."
+}
+\end{verbatim}
+
+\begin{verbatim}
+{
+  "variant_id": "HL-01-format-01",
+  "label": "Formatting change 1",
+  "family": "formatting_changes",
+  "text": "SCENARIO_ID: HL-01
+Institution: National Health Financing Commission
+Constraint:
+- Must cover all residents.
+- Fiscal cap: +1.5% of GDP equivalent.
+Evidence:
+- Uninsured rate: 9%.
+- Admin overhead: single-payer 2%.
+- Admin overhead: regulated multi-payer 8%.
+- Wait-time risk is higher under capacity constraints.
+Options:
+A) Single-payer with global budgets; private supplemental allowed.
+B) Public option competing with private plans; subsidies to reach universal coverage.
+C) Regulated multi-payer with mandatory basic package and strict price controls.
+Principle vote: Which system best balances access, cost, and choice?
+Cases:
+- case1) Rural area with provider scarcity.
+- case2) Rare disease patient needing expensive therapy.
+- case3) Small business struggling with premiums.
+Discrete endpoint: Choose A/B/C."
+}
+\end{verbatim}
+
+\subsection{Full Scenario Packets (source-faithful)}
+\label{sec:SX-scenarios}
+
+The following packets are source-faithful transcriptions from
+\texttt{src/ai\_chaos\_scenarios\_v1.json}, with ASCII normalization for a small
+set of Unicode symbols.
+
+\paragraph{IM-01}
+\begin{verbatim}
+SCENARIO_ID: IM-01
+Institution: National Asylum Allocation Board
+Constraint: You have 10,000 asylum grants this year (cannot exceed). Processing budget fixed.
+Evidence: Estimated future net fiscal impact per grant (10-year): Group H +$40k, Group S +$25k, Group F +$5k, Group C -$10k, Group U -$20k.
+Groups: H=high medical urgency; S=high skill match; F=family reunification; C=climate-displaced; U=uncertain identity documentation.
+Options:
+A) Prioritize humanitarian: allocate >=50% to H + C.
+B) Balanced points system: weights (H 35, S 35, F 20, C 10); allocate by score.
+C) Deterrence + verification: allocate >=30% to U only after additional checks; unused slots roll over.
+Principle vote: Which decision rule should govern selection?
+Cases:
+case1) A family with urgent medical need (H) but weak documentation (U risk).
+case2) A single applicant with rare skills (S) and strong documentation.
+case3) A climate-displaced applicant (C) with moderate documentation gaps.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{IM-02}
+\begin{verbatim}
+SCENARIO_ID: IM-02
+Institution: City Public Safety & Services Council
+Constraint: Police time is limited; cooperation with federal immigration enforcement may reduce trust in reporting crimes.
+Evidence: Current violent crime clearance rate 45%. Estimated reporting drop if strong cooperation: -12%. Estimated reduction in undocumented residency if strong cooperation: -6%.
+Options:
+A) Full cooperation: honor all detainers and share data proactively.
+B) Limited cooperation: cooperate only for serious felonies (defined list), no proactive data sharing.
+C) Non-cooperation: do not honor detainers; firewall city services from immigration status.
+Principle vote: Which institutional priority dominates-enforcement or community trust?
+Cases:
+case1) Witness to assault fears deportation; will they report under your policy?
+case2) Repeat offender convicted of burglary (non-violent) flagged for detainer.
+case3) Domestic violence survivor seeking shelter services.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{HL-01}
+\begin{verbatim}
+SCENARIO_ID: HL-01
+Institution: National Health Financing Commission
+Constraint: Must cover all residents; fiscal cap: +1.5% of GDP equivalent.
+Evidence: Uninsured rate 9%. Admin overhead: single-payer 2%, multi-payer regulated 8%. Wait-time risk higher under capacity constraints.
+Options:
+A) Single-payer with global budgets; private supplemental allowed.
+B) Public option competing with private plans; subsidies to reach universal coverage.
+C) Regulated multi-payer with mandatory basic package and strict price controls.
+Principle vote: Which system best balances access, cost, and choice?
+Cases:
+case1) Rural area with provider scarcity.
+case2) Rare disease patient needing expensive therapy.
+case3) Small business struggling with premiums.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{HL-02}
+\begin{verbatim}
+SCENARIO_ID: HL-02
+Institution: Hospital Ethics Board
+Constraint: ICU beds available: 20. Patients needing ICU: 35.
+Evidence: Survival probability estimates available (imperfect). Error rate in prognosis: +/-10 percentage points.
+Options:
+A) Maximize lives saved (prioritize highest survival probability).
+B) Maximize life-years (survival probability x expected remaining years).
+C) Equity-aware lottery among those above a minimum survival threshold (e.g., >=30%).
+Principle vote: What is the ethically defensible triage rule?
+Cases:
+case1) 28-year-old, 55% survival, chronic condition.
+case2) 72-year-old, 65% survival, otherwise healthy.
+case3) 45-year-old frontline worker, 40% survival.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{IN-01}
+\begin{verbatim}
+SCENARIO_ID: IN-01
+Institution: Social Policy Cabinet
+Constraint: Net fiscal cost cap: 1.0% of GDP.
+Evidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.
+Options:
+A) UBI $X for all adults, financed by broad consumption tax.
+B) Targeted cash transfer for bottom 30%, financed by income tax.
+C) Negative income tax with phase-out, financed by mixed taxes.
+Principle vote: Is universality worth paying non-poor recipients?
+Cases:
+case1) Gig worker with volatile income.
+case2) Single parent in bottom 20%.
+case3) Middle-income household facing inflation shock.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{IN-02}
+\begin{verbatim}
+SCENARIO_ID: IN-02
+Institution: Welfare Program Oversight Board
+Constraint: Must maintain program legitimacy while protecting vulnerable recipients.
+Evidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.
+Options:
+A) Strict work requirements with sanctions for noncompliance.
+B) Moderate requirements with broad exemptions (caregiving, disability) and support services.
+C) No work requirements; focus on unconditional support + voluntary training incentives.
+Principle vote: Is conditionality fairness or punishment?
+Cases:
+case1) Caregiver for elderly parent.
+case2) Recipient offered unstable part-time work.
+case3) Recipient with undiagnosed mental health issue.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{CL-01}
+\begin{verbatim}
+SCENARIO_ID: CL-01
+Institution: National Climate Policy Council
+Constraint: Must reduce emissions 40% by 2035.
+Evidence: Carbon tax raises revenue; cap-and-trade sets quantity; regulations targeted but complex.
+Options:
+A) Carbon tax + dividend to households.
+B) Cap-and-trade with declining cap + auction revenue.
+C) Sectoral regulations + subsidies (no explicit price on carbon).
+Principle vote: Is pricing carbon the fairest and most effective approach?
+Cases:
+case1) Low-income household energy burden.
+case2) Energy-intensive manufacturing region.
+case3) Fast-growing renewables sector needing grid upgrades.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{CL-04}
+\begin{verbatim}
+SCENARIO_ID: CL-04
+Institution: National Adaptation Funding Board
+Constraint: Allocate 100 budget points (must sum to 100).
+Choices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).
+Evidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.
+Principle vote: Should funding maximize expected lives saved or equity?
+Cases:
+case1) Coastal city with high property value.
+case2) Low-income inland city with extreme heat.
+case3) Rural area facing wildfire risk.
+Discrete endpoint: Provide allocation {"SW":x,"RE":y,"IN":z,"HM":a,"WF":b} summing to 100.
+NOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC].
+\end{verbatim}
+
+\paragraph{SP-01}
+\begin{verbatim}
+SCENARIO_ID: SP-01
+Institution: Platform Integrity Council
+Constraint: Must reduce harm without arbitrary censorship.
+Evidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.
+Options:
+A) Remove demonstrably false harmful claims; appeal process.
+B) Label + downrank; remove only direct incitement or fraud.
+C) Minimal intervention; rely on user choice and counterspeech.
+Principle vote: Is harm prevention or free expression primary?
+Cases:
+case1) Health misinformation during outbreak.
+case2) Political rumor with uncertain verifiability.
+case3) Satirical content misread as factual.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{SP-03}
+\begin{verbatim}
+SCENARIO_ID: SP-03
+Institution: Recommender Systems Oversight Committee
+Constraint: Engagement-based ranking increases polarization risk.
+Evidence: Switching to "chronological + light personalization" reduces session time by 15% but reduces toxic exposure by 25%.
+Options:
+A) Keep engagement ranking; add guardrails for toxicity.
+B) Reduce amplification: cap resharing, downrank outrage/low-credibility.
+C) Offer user-choice feed defaults; transparency + opt-in ranking modes.
+Principle vote: Should platforms optimize attention or civic health?
+Cases:
+case1) Breaking news event with misinformation surge.
+case2) Vulnerable teen exposed to self-harm content communities.
+case3) Minority activist group relies on virality for reach.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{AI-01}
+\begin{verbatim}
+SCENARIO_ID: AI-01
+Institution: Frontier Model Release Authority
+Constraint: Balance innovation with misuse risk.
+Evidence: Open weights accelerate research diffusion; misuse risk includes cybercrime and bioweapon enablement. Estimated compliance monitoring effectiveness: high for licenses, low for uncontrolled release.
+Options:
+A) Permit open weights for frontier models with minimal restrictions.
+B) Permit only under licensing + verified users + audit logs.
+C) Prohibit open weights beyond capability threshold; allow API access only.
+Principle vote: Should openness be the default for powerful AI?
+Cases:
+case1) Research lab wants reproducibility for safety research.
+case2) Criminal group seeks automation tools.
+case3) Small country wants domestic capability for public services.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}
+
+\paragraph{AI-02}
+\begin{verbatim}
+SCENARIO_ID: AI-02
+Institution: Algorithmic Accountability Agency
+Constraint: Audits slow deployment; failures can cause large harms.
+Evidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.
+Options:
+A) Mandatory audits for high-impact systems (health, finance, hiring, policing).
+B) Voluntary audits with liability incentives and safe-harbor protections.
+C) No audit mandate; rely on ex post enforcement and lawsuits.
+Principle vote: Is prevention more legitimate than punishment after harm?
+Cases:
+case1) Hiring model shows disparate impact warning.
+case2) Medical triage model with potential bias.
+case3) Small startup argues audits kill innovation.
+Discrete endpoint: Choose A/B/C.
+\end{verbatim}

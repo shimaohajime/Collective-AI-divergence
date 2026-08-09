@@ -1,0 +1,256 @@
+{
+  "variant_sets": [
+    {
+      "scenario_id": "IN-01",
+      "canonical_variant_id": "IN-01-canonical",
+      "variants": [
+        {
+          "variant_id": "IN-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence: Targeted program admin cost 9%; UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The net fiscal cost may not exceed 1.0% of GDP.\nEvidence: Administrative cost is 9% for a targeted program and 2% for UBI. Estimated labor supply reduction is -2% for UBI and -1% for the targeted approach.\nOptions:\nA) UBI $X for all adults, financed by a broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost is capped at 1.0% of GDP.\nEvidence: Targeted-program administrative cost is 9%, while UBI administrative cost is 2%. Estimated labor supply reduction is -2% under UBI and -1% under a targeted program.\nOptions:\nA) UBI $X for every adult, financed by a broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The policy must stay within a net fiscal cost cap of 1.0% of GDP.\nEvidence: Administrative cost equals 9% for the targeted program and 2% for UBI. Estimated labor supply reduction is -2% for UBI and -1% for the targeted option.\nOptions:\nA) UBI $X for all adults, financed through a broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed through income tax.\nC) Negative income tax with a phase-out, financed through mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cannot go above 1.0% of GDP.\nEvidence: Targeted program admin cost is 9%, whereas UBI admin cost is 2%. Estimated labor supply reduction is -2% under UBI and -1% under the targeted program.\nOptions:\nA) UBI $X for all adults, financed by a broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: There is a net fiscal cost cap of 1.0% of GDP.\nEvidence: Admin cost is 9% for the targeted program and 2% for UBI. Estimated labor supply reduction is -2% for UBI and -1% for the targeted program.\nOptions:\nA) UBI $X for all adults, financed by a broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The net fiscal cost must remain at or below 1.0% of GDP.\nEvidence: Administrative cost is 9% for a targeted program and 2% for UBI. Estimated labor supply reduction is -2% for UBI compared with -1% for the targeted program.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost is limited to 1.0% of GDP.\nEvidence: Targeted program admin cost comes to 9%, while UBI admin cost comes to 2%. Estimated labor supply reduction is -2% under UBI and -1% under a targeted program.\nOptions:\nA) UBI $X for all adults, financed by a broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The budget allows a maximum net fiscal cost of 1.0% of GDP.\nEvidence: Administrative cost is 9% for the targeted program and 2% for UBI. Estimated labor supply reduction is -2% for UBI and -1% for the targeted option.\nOptions:\nA) UBI $X for all adults, financed by a broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: The policy is subject to a net fiscal cost cap of 1.0% of GDP.\nEvidence: Targeted-program admin cost is 9%; UBI admin cost is 2%. Estimated labor supply reduction equals -2% for UBI and -1% for targeted transfers.\nOptions:\nA) UBI $X for all adults, financed by a broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost must fit within 1.0% of GDP.\nEvidence: Administrative cost is 9% for the targeted program and 2% for UBI. Estimated labor supply reduction is -2% for UBI and -1% for a targeted program.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for the bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint:\n- Net fiscal cost cap: 1.0% of GDP.\nEvidence:\n- Targeted program admin cost 9%.\n- UBI admin cost 2%.\n- Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\n- case1) Gig worker with volatile income.\n- case2) Single parent in bottom 20%.\n- case3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\n\nEvidence:\nTargeted program admin cost 9%.\nUBI admin cost 2%.\nEstimated labor supply reduction: UBI -2%, targeted -1%.\n\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\n\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\n\nConstraint\nNet fiscal cost cap: 1.0% of GDP.\n\nEvidence\nTargeted program admin cost 9%.\nUBI admin cost 2%.\nEstimated labor supply reduction: UBI -2%, targeted -1%.\n\nOptions\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\n\nPrinciple vote\nIs universality worth paying non-poor recipients?\n\nCases\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\n\nDiscrete endpoint\nChoose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint | Net fiscal cost cap: 1.0% of GDP.\nEvidence | Targeted program admin cost 9%. UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions | A) UBI $X for all adults, financed by broad consumption tax. B) Targeted cash transfer for bottom 30%, financed by income tax. C) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote | Is universality worth paying non-poor recipients?\nCases | case1) Gig worker with volatile income. case2) Single parent in bottom 20%. case3) Middle-income household facing inflation shock.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint:\nNet fiscal cost cap: 1.0% of GDP.\nEvidence:\nTargeted program admin cost 9%.\nUBI admin cost 2%.\nEstimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote:\nIs universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint:\n- Net fiscal cost cap: 1.0% of GDP.\nEvidence:\n- Targeted program admin cost 9%.\n- UBI admin cost 2%.\n- Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\n- A) UBI $X for all adults, financed by broad consumption tax.\n- B) Targeted cash transfer for bottom 30%, financed by income tax.\n- C) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\n- case1) Gig worker with volatile income.\n- case2) Single parent in bottom 20%.\n- case3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence:\n(1) Targeted program admin cost 9%.\n(2) UBI admin cost 2%.\n(3) Estimated labor supply reduction: UBI -2%, targeted -1%.\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\n(1) case1) Gig worker with volatile income.\n(2) case2) Single parent in bottom 20%.\n(3) case3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\n\nEvidence: Targeted program admin cost 9%. UBI admin cost 2%. Estimated labor supply reduction: UBI -2%, targeted -1%.\n\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\n\nPrinciple vote: Is universality worth paying non-poor recipients?\n\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-01\nInstitution: Social Policy Cabinet\nConstraint: Net fiscal cost cap: 1.0% of GDP.\nEvidence:\nTargeted program admin cost 9%\nUBI admin cost 2%\nEstimated labor supply reduction: UBI -2%, targeted -1%\nOptions:\nA) UBI $X for all adults, financed by broad consumption tax.\nB) Targeted cash transfer for bottom 30%, financed by income tax.\nC) Negative income tax with phase-out, financed by mixed taxes.\nPrinciple vote: Is universality worth paying non-poor recipients?\nCases:\ncase1) Gig worker with volatile income.\ncase2) Single parent in bottom 20%.\ncase3) Middle-income household facing inflation shock.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "IN-02",
+      "canonical_variant_id": "IN-02-canonical",
+      "variants": [
+        {
+          "variant_id": "IN-02-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The board must preserve program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules is 18%. Administrative error rate in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, plus support services.\nC) No work requirements; focus on unconditional support and voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Program legitimacy must be maintained while vulnerable recipients are protected.\nEvidence: Strict rules produce 18% noncompliance. Administrative error rate in reported hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, along with support services.\nC) No work requirements; emphasize unconditional support plus voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The oversight board must keep the program legitimate while still protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules is 18%, and the administrative error rate in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, plus support services.\nC) No work requirements; focus on unconditional support together with voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The program must remain legitimate while vulnerable recipients continue to be protected.\nEvidence: Noncompliance under strict rules equals 18%. The administrative error rate in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, along with support services.\nC) No work requirements; focus on unconditional support and voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules is 18%. Administrative error in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, plus support services.\nC) No work requirements; focus on unconditional support plus voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The board has to maintain program legitimacy while also protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules stands at 18%. Administrative error rate in reporting hours stands at 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, and support services.\nC) No work requirements; focus on unconditional support plus voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Program legitimacy has to be preserved while vulnerable recipients are protected.\nEvidence: Strict rules generate 18% noncompliance. Administrative error rate in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, paired with support services.\nC) No work requirements; prioritize unconditional support plus voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The oversight board must sustain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules is 18%. Administrative error rate in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, together with support services.\nC) No work requirements; focus on unconditional support plus voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The policy must maintain program legitimacy while protecting vulnerable recipients.\nEvidence: Noncompliance under strict rules is 18%, and the administrative error rate in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, along with support services.\nC) No work requirements; focus on unconditional support and voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: The program must stay legitimate while vulnerable recipients are protected.\nEvidence: Strict rules lead to 18% noncompliance. Administrative error rate in reporting hours is 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions for caregiving and disability, plus support services.\nC) No work requirements; focus on unconditional support plus voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint:\n- Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\n- Noncompliance under strict rules: 18%.\n- Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\n- case1) Caregiver for elderly parent.\n- case2) Recipient offered unstable part-time work.\n- case3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\n\nEvidence:\nNoncompliance under strict rules: 18%.\nAdministrative error rate in reporting hours: 3%.\n\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\n\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\n\nConstraint\nMust maintain program legitimacy while protecting vulnerable recipients.\n\nEvidence\nNoncompliance under strict rules: 18%.\nAdministrative error rate in reporting hours: 3%.\n\nOptions\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\n\nPrinciple vote\nIs conditionality fairness or punishment?\n\nCases\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\n\nDiscrete endpoint\nChoose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint | Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence | Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\nOptions | A) Strict work requirements with sanctions for noncompliance. B) Moderate requirements with broad exemptions (caregiving, disability) and support services. C) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote | Is conditionality fairness or punishment?\nCases | case1) Caregiver for elderly parent. case2) Recipient offered unstable part-time work. case3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint | Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint:\nMust maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\nNoncompliance under strict rules: 18%.\nAdministrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote:\nIs conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint:\n- Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\n- Noncompliance under strict rules: 18%.\n- Administrative error rate in reporting hours: 3%.\nOptions:\n- A) Strict work requirements with sanctions for noncompliance.\n- B) Moderate requirements with broad exemptions (caregiving, disability) and support services.\n- C) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\n- case1) Caregiver for elderly parent.\n- case2) Recipient offered unstable part-time work.\n- case3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\n(1) Noncompliance under strict rules: 18%.\n(2) Administrative error rate in reporting hours: 3%.\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\n(1) case1) Caregiver for elderly parent.\n(2) case2) Recipient offered unstable part-time work.\n(3) case3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\n\nEvidence: Noncompliance under strict rules: 18%. Administrative error rate in reporting hours: 3%.\n\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\n\nPrinciple vote: Is conditionality fairness or punishment?\n\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\n\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "IN-02-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: IN-02\nInstitution: Welfare Program Oversight Board\nConstraint: Must maintain program legitimacy while protecting vulnerable recipients.\nEvidence:\nNoncompliance under strict rules: 18%\nAdministrative error rate in reporting hours: 3%\nOptions:\nA) Strict work requirements with sanctions for noncompliance.\nB) Moderate requirements with broad exemptions (caregiving, disability) and support services.\nC) No work requirements; focus on unconditional support + voluntary training incentives.\nPrinciple vote: Is conditionality fairness or punishment?\nCases:\ncase1) Caregiver for elderly parent.\ncase2) Recipient offered unstable part-time work.\ncase3) Recipient with undiagnosed mental health issue.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    }
+  ]
+}

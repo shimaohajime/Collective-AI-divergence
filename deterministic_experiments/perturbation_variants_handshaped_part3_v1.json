@@ -1,0 +1,256 @@
+{
+  "variant_sets": [
+    {
+      "scenario_id": "CL-04",
+      "canonical_variant_id": "CL-04-canonical",
+      "variants": [
+        {
+          "variant_id": "CL-04-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: You must allocate 100 budget points, and the allocation has to sum to 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points are SW 1.5, RE 1.0, IN 0.6, HM 1.2, and WF 1.1. Equity impact is highest for HM and RE.\nPrinciple vote: Should the funding rule prioritize maximizing expected lives saved or prioritizing equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate exactly 100 budget points; totals must add up to 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Per 10 points, expected lives saved are 1.5 for SW, 1.0 for RE, 0.6 for IN, 1.2 for HM, and 1.1 for WF. HM and RE have the highest equity impact.\nPrinciple vote: Should this funding decision maximize expected lives saved or emphasize equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The board has 100 budget points to distribute, and the total must equal 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved for every 10 points are SW 1.5, RE 1.0, IN 0.6, HM 1.2, and WF 1.1. Equity effects are strongest for HM and RE.\nPrinciple vote: Should the board focus on expected lives saved or on equity when assigning funding?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Funding must be allocated across 100 budget points, with the points summing to 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points are listed as SW 1.5, RE 1.0, IN 0.6, HM 1.2, and WF 1.1. HM and RE score highest on equity impact.\nPrinciple vote: Should funding be directed mainly by expected lives saved or by equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: You are allocating 100 budget points, and the final allocation must total 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: For each 10 points, expected lives saved equal 1.5 for SW, 1.0 for RE, 0.6 for IN, 1.2 for HM, and 1.1 for WF. The highest equity impact is associated with HM and RE.\nPrinciple vote: Should the board maximize expected lives saved or give stronger weight to equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Exactly 100 budget points must be allocated, with no deviation from a total of 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved by each 10-point increment are SW 1.5, RE 1.0, IN 0.6, HM 1.2, and WF 1.1. HM and RE have the greatest equity impact.\nPrinciple vote: Should the guiding criterion for funding be expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The board must divide 100 budget points, and the sum of all allocations must be 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved for every 10 points are 1.5 for SW, 1.0 for RE, 0.6 for IN, 1.2 for HM, and 1.1 for WF. HM and RE provide the highest equity impact.\nPrinciple vote: Should the board's funding decision be driven by maximizing expected lives saved or by equity considerations?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: There are 100 budget points available, and your allocation must sum to 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Each 10 points is expected to save 1.5 lives for SW, 1.0 for RE, 0.6 for IN, 1.2 for HM, and 1.1 for WF. HM and RE rank highest on equity impact.\nPrinciple vote: Should this funding choice prioritize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: The funding board must assign 100 budget points in total, with the sum required to equal 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: Expected lives saved per 10 points are given as SW 1.5, RE 1.0, IN 0.6, HM 1.2, and WF 1.1. Equity impact is greatest for HM and RE.\nPrinciple vote: Should the board maximize expected lives saved or place more emphasis on equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate a total of 100 budget points, making sure the final sum is 100.\nChoices: Sea walls (SW), Relocation support (RE), Insurance subsidies (IN), Heat mitigation (HM), Wildfire prevention (WF).\nEvidence: The expected lives saved for each 10-point allocation are SW 1.5, RE 1.0, IN 0.6, HM 1.2, and WF 1.1. HM and RE have the highest equity impact.\nPrinciple vote: Should funding mainly maximize expected lives saved or mainly advance equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices:\n- Sea walls (SW)\n- Relocation support (RE)\n- Insurance subsidies (IN)\n- Heat mitigation (HM)\n- Wildfire prevention (WF)\nEvidence:\n- Expected lives saved per 10 points: SW 1.5\n- Expected lives saved per 10 points: RE 1.0\n- Expected lives saved per 10 points: IN 0.6\n- Expected lives saved per 10 points: HM 1.2\n- Expected lives saved per 10 points: WF 1.1\n- Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\n- case1) Coastal city with high property value.\n- case2) Low-income inland city with extreme heat.\n- case3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: Sea walls (SW); Relocation support (RE); Insurance subsidies (IN); Heat mitigation (HM); Wildfire prevention (WF).\nEvidence:\nExpected lives saved per 10 points:\nSW 1.5\nRE 1.0\nIN 0.6\nHM 1.2\nWF 1.1\nEquity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices:\nSW = Sea walls\nRE = Relocation support\nIN = Insurance subsidies\nHM = Heat mitigation\nWF = Wildfire prevention\nEvidence: Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1.\nEvidence: Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices:\n1. Sea walls (SW)\n2. Relocation support (RE)\n3. Insurance subsidies (IN)\n4. Heat mitigation (HM)\n5. Wildfire prevention (WF)\nEvidence:\n1. Expected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1.\n2. Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\n1. case1) Coastal city with high property value.\n2. case2) Low-income inland city with extreme heat.\n3. case3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices: [SW] Sea walls | [RE] Relocation support | [IN] Insurance subsidies | [HM] Heat mitigation | [WF] Wildfire prevention\nEvidence: Expected lives saved per 10 points -> SW 1.5; RE 1.0; IN 0.6; HM 1.2; WF 1.1.\nEvidence: Equity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases: case1) Coastal city with high property value. case2) Low-income inland city with extreme heat. case3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint:\nAllocate 100 budget points (must sum to 100).\nChoices:\nSea walls (SW)\nRelocation support (RE)\nInsurance subsidies (IN)\nHeat mitigation (HM)\nWildfire prevention (WF)\nEvidence:\nExpected lives saved per 10 points: SW 1.5, RE 1.0, IN 0.6, HM 1.2, WF 1.1.\nEquity impact highest for HM and RE.\nPrinciple vote:\nShould funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices / codes:\nSW - Sea walls\nRE - Relocation support\nIN - Insurance subsidies\nHM - Heat mitigation\nWF - Wildfire prevention\nEvidence / performance:\nSW 1.5 lives saved per 10 points\nRE 1.0 lives saved per 10 points\nIN 0.6 lives saved per 10 points\nHM 1.2 lives saved per 10 points\nWF 1.1 lives saved per 10 points\nEquity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases / contexts:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices:\nSea walls (SW); Relocation support (RE); Insurance subsidies (IN);\nHeat mitigation (HM); Wildfire prevention (WF).\nEvidence:\nExpected lives saved per 10 points:\n- SW 1.5\n- RE 1.0\n- IN 0.6\n- HM 1.2\n- WF 1.1\nEquity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\ncase1) Coastal city with high property value.\ncase2) Low-income inland city with extreme heat.\ncase3) Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        },
+        {
+          "variant_id": "CL-04-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: CL-04\nInstitution: National Adaptation Funding Board\nConstraint: Allocate 100 budget points (must sum to 100).\nChoices:\n[SW] Sea walls\n[RE] Relocation support\n[IN] Insurance subsidies\n[HM] Heat mitigation\n[WF] Wildfire prevention\nEvidence:\n[SW] 1.5 expected lives saved per 10 points\n[RE] 1.0 expected lives saved per 10 points\n[IN] 0.6 expected lives saved per 10 points\n[HM] 1.2 expected lives saved per 10 points\n[WF] 1.1 expected lives saved per 10 points\nEquity impact highest for HM and RE.\nPrinciple vote: Should funding maximize expected lives saved or equity?\nCases:\n[1] Coastal city with high property value.\n[2] Low-income inland city with extreme heat.\n[3] Rural area facing wildfire risk.\nDiscrete endpoint: Provide allocation {\"SW\":x,\"RE\":y,\"IN\":z,\"HM\":a,\"WF\":b} summing to 100.\nNOTE: For this scenario, treat A/B/C as: A=lives-saved maximizing, B=equity maximizing, C=balanced; still output pref=[pA,pB,pC]."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SP-01",
+      "canonical_variant_id": "SP-01-canonical",
+      "variants": [
+        {
+          "variant_id": "SP-01-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk. Labeling reduces sharing by 20%. Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The platform must reduce harm while avoiding arbitrary censorship.\nEvidence: Removing content cuts exposure by 90% but increases false-positive risk. Labeling lowers sharing by 20%. Downranking lowers it by 35%.\nOptions:\nA) Remove demonstrably false harmful claims, with an appeal process.\nB) Label and downrank content; remove only direct incitement or fraud.\nC) Use minimal intervention and rely on user choice plus counterspeech.\nPrinciple vote: Which is primary, harm prevention or free expression?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Harm must be reduced without resorting to arbitrary censorship.\nEvidence: Content removal reduces exposure by 90% but raises the risk of false positives. Labeling reduces sharing by 20%. Downranking reduces sharing by 35%.\nOptions:\nA) Remove demonstrably false harmful claims and provide an appeal process.\nB) Label plus downrank, removing content only for direct incitement or fraud.\nC) Keep intervention minimal and rely on user choice and counterspeech.\nPrinciple vote: Is the primary value harm prevention or free expression?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The council must reduce harm without imposing arbitrary censorship.\nEvidence: Removing content lowers exposure by 90% but raises false-positive risk. Labeling lowers sharing by 20%, and downranking lowers it by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; include an appeal process.\nB) Label and downrank, removing only direct incitement or fraud.\nC) Favor minimal intervention and rely on user choice together with counterspeech.\nPrinciple vote: Should harm prevention or free expression come first?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The platform needs to reduce harm while steering clear of arbitrary censorship.\nEvidence: Removal reduces exposure by 90% but increases false-positive risk. Labels reduce sharing by 20%. Downranking reduces sharing by 35%.\nOptions:\nA) Remove demonstrably false harmful claims and allow appeals.\nB) Apply labels and downranking; reserve removal for direct incitement or fraud.\nC) Intervene minimally and rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention primary, or is free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The council must cut harm without engaging in arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but creates more false-positive risk. Labeling reduces sharing by 20%. Downranking reduces sharing by 35%.\nOptions:\nA) Remove demonstrably false harmful claims, with appeals available.\nB) Label plus downrank; remove content only when it is direct incitement or fraud.\nC) Use a minimal-intervention approach and depend on user choice and counterspeech.\nPrinciple vote: Which should dominate, harm prevention or free expression?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Harm reduction is required, but arbitrary censorship is not allowed.\nEvidence: Content removal lowers exposure by 90% while increasing false-positive risk. Labeling lowers sharing by 20%. Downranking lowers sharing by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; provide an appeal process.\nB) Label and downrank content, removing only direct incitement or fraud.\nC) Keep intervention minimal and rely on user choice and counterspeech.\nPrinciple vote: Is the first priority harm prevention or free expression?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The platform must reduce harm, but it must do so without arbitrary censorship.\nEvidence: Removing content cuts exposure by 90% but raises false-positive risk. Labeling cuts sharing by 20%. Downranking cuts sharing by 35%.\nOptions:\nA) Remove demonstrably false harmful claims and maintain an appeal process.\nB) Label and downrank; remove only material involving direct incitement or fraud.\nC) Keep intervention minimal, relying on user choice and counterspeech.\nPrinciple vote: Which principle is primary, harm prevention or free expression?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Reduce harm without crossing into arbitrary censorship.\nEvidence: Removal reduces exposure by 90% but raises the chance of false positives. Labeling reduces sharing by 20%. Downranking reduces sharing by 35%.\nOptions:\nA) Remove demonstrably false harmful claims, subject to an appeal process.\nB) Use labels and downranking, with removal only for direct incitement or fraud.\nC) Adopt minimal intervention and rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention primary or is free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The council has to reduce harm without using arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but increases false-positive risk. Labeling reduces sharing by 20%, while downranking reduces it by 35%.\nOptions:\nA) Remove demonstrably false harmful claims and offer appeals.\nB) Label plus downrank; remove content only in cases of direct incitement or fraud.\nC) Keep intervention minimal and rely on user choice plus counterspeech.\nPrinciple vote: Should harm prevention or free expression be treated as primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: The platform must address harm without relying on arbitrary censorship.\nEvidence: Removing content lowers exposure by 90% but heightens false-positive risk. Labeling lowers sharing by 20%. Downranking lowers sharing by 35%.\nOptions:\nA) Remove demonstrably false harmful claims and preserve an appeal process.\nB) Label and downrank, removing only direct incitement or fraud.\nC) Use minimal intervention and trust user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression the primary concern?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence:\n- Removing content reduces exposure by 90% but raises false-positive risk.\n- Labeling reduces sharing by 20%.\n- Downranking reduces by 35%.\nOptions:\n- A) Remove demonstrably false harmful claims; appeal process.\n- B) Label + downrank; remove only direct incitement or fraud.\n- C) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\n- case1) Health misinformation during outbreak.\n- case2) Political rumor with uncertain verifiability.\n- case3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk; labeling reduces sharing by 20%; downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases: case1) Health misinformation during outbreak. case2) Political rumor with uncertain verifiability. case3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence / effects:\nRemoving content -> exposure reduced by 90%, but false-positive risk rises.\nLabeling -> sharing reduced by 20%.\nDownranking -> reduced by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence:\n1. Removing content reduces exposure by 90% but raises false-positive risk.\n2. Labeling reduces sharing by 20%.\n3. Downranking reduces by 35%.\nOptions:\n1. A) Remove demonstrably false harmful claims; appeal process.\n2. B) Label + downrank; remove only direct incitement or fraud.\n3. C) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\n1. case1) Health misinformation during outbreak.\n2. case2) Political rumor with uncertain verifiability.\n3. case3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence:\nRemoving content reduces exposure by 90% but raises false-positive risk.\nLabeling reduces sharing by 20%.\nDownranking reduces by 35%.\nOptions: A) Remove demonstrably false harmful claims; appeal process. B) Label + downrank; remove only direct incitement or fraud. C) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases: case1) Health misinformation during outbreak. case2) Political rumor with uncertain verifiability. case3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint:\nMust reduce harm without arbitrary censorship.\nEvidence:\nRemoving content reduces exposure by 90% but raises false-positive risk.\nLabeling reduces sharing by 20%.\nDownranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote:\nIs harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence / policy effects:\n- Removal: exposure reduced by 90%, but false-positive risk rises.\n- Labeling: sharing reduced by 20%.\n- Downranking: reduced by 35%.\nOptions / actions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases / examples:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence: Removing content reduces exposure by 90% but raises false-positive risk.\nEvidence: Labeling reduces sharing by 20%.\nEvidence: Downranking reduces by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-01-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-01\nInstitution: Platform Integrity Council\nConstraint: Must reduce harm without arbitrary censorship.\nEvidence:\n[Remove] exposure reduced by 90%, but false-positive risk rises.\n[Label] sharing reduced by 20%.\n[Downrank] reduced by 35%.\nOptions:\nA) Remove demonstrably false harmful claims; appeal process.\nB) Label + downrank; remove only direct incitement or fraud.\nC) Minimal intervention; rely on user choice and counterspeech.\nPrinciple vote: Is harm prevention or free expression primary?\nCases:\ncase1) Health misinformation during outbreak.\ncase2) Political rumor with uncertain verifiability.\ncase3) Satirical content misread as factual.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    }
+  ]
+}

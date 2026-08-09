@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{wu2023autogen}
+Q.~Wu, G.~Bansal, J.~Zhang, \emph{et~al.}, {AutoGen}: Enabling Next-Gen {LLM}
+  Applications via Multi-Agent Conversation (2023),
+  \url{https://arxiv.org/abs/2308.08155}.
+
+\bibitem{chen2023agentverse}
+W.~Chen, Y.~Su, J.~Zuo, \emph{et~al.}, {AgentVerse}: Facilitating Multi-Agent
+  Collaboration and Exploring Emergent Behaviors in Agents (2023),
+  \url{https://arxiv.org/abs/2308.10848}.
+
+\bibitem{li2023camel}
+G.~Li, H.~Hammoud, H.~Itani, D.~Khizbullin, B.~Ghanem, {CAMEL}: Communicative
+  Agents for Mind Exploration of Large Language Model Society (2023),
+  \url{https://arxiv.org/abs/2303.17760}.
+
+\bibitem{hong2023metagpt}
+S.~Hong, M.~Zhuge, J.~Chen, \emph{et~al.}, {MetaGPT}: Meta Programming for
+  Multi-Agent Collaborative Framework (2023),
+  \url{https://arxiv.org/abs/2308.00352}.
+
+\bibitem{park2023generative}
+J.~S. Park, \emph{et~al.}, Generative Agents: Interactive Simulacra of Human
+  Behavior, in \emph{Proceedings of the 36th Annual ACM Symposium on User
+  Interface Software and Technology (UIST)} (2023), pp. 1--22,
+  \doi{10.1145/3586183.3606763}.
+
+\bibitem{lee2025reliable}
+X.~Y. Lee, \emph{et~al.}, Reliable decision-making for multi-agent LLM systems
+  (2025), arXiv preprint arXiv:2406.04092.
+
+\bibitem{huangresilience}
+J.-t. Huang, \emph{et~al.}, On the Resilience of LLM-Based Multi-Agent
+  Collaboration with Faulty Agents, in \emph{Forty-second International
+  Conference on Machine Learning} (2025), pp. 26202--26226.
+
+\bibitem{sclar2023quantifying}
+M.~Sclar, Y.~Choi, Y.~Tsvetkov, A.~Suhr, Quantifying Language Models'
+  Sensitivity to Spurious Features in Prompt Design or: How I Learned to Start
+  Worrying About Prompt Formatting, in \emph{International Conference on
+  Learning Representations (ICLR)} (2024),
+  \url{https://arxiv.org/abs/2310.11324}.
+
+\bibitem{sunstein2002law}
+C.~R. Sunstein, The Law of Group Polarization. \emph{The Journal of Political
+  Philosophy} \textbf{10}, 175--195 (2002), \doi{10.1111/1467-9760.00148}.
+
+\bibitem{tversky1981framing}
+A.~Tversky, D.~Kahneman, The Framing of Decisions and the Psychology of Choice.
+  \emph{Science} \textbf{211}~(4481), 453--458 (1981),
+  \doi{10.1126/science.7455683}.
+
+\bibitem{page2007difference}
+S.~E. Page, \emph{The Difference: How the Power of Diversity Creates Better
+  Groups, Firms, Schools, and Societies} (Princeton University Press) (2007).
+
+\bibitem{nist2023airmf}
+{National Institute of Standards and Technology}, Artificial Intelligence Risk
+  Management Framework ({AI RMF} 1.0),
+  \url{https://www.nist.gov/itl/ai-risk-management-framework} (2023), nIST AI
+  100-1.
+
+\bibitem{eckmann1985ergodic}
+J.-P. Eckmann, D.~Ruelle, Ergodic Theory of Chaos and Strange Attractors.
+  \emph{Reviews of Modern Physics} \textbf{57}~(3), 617--656 (1985),
+  \doi{10.1103/RevModPhys.57.617}.
+
+\bibitem{ott2002chaos}
+E.~Ott, \emph{Chaos in Dynamical Systems} (Cambridge University Press), 2nd ed.
+  (2002).
+
+\bibitem{pineau2021improving}
+J.~Pineau, \emph{et~al.}, Improving Reproducibility in Machine Learning
+  Research: A Report from the NeurIPS 2019 Reproducibility Program.
+  \emph{Journal of Machine Learning Research} \textbf{22}~(164), 1--20 (2021),
+  \url{https://jmlr.org/papers/v22/20-303.html}.
+
+\bibitem{scipy2020}
+P.~Virtanen, R.~Gommers, T.~E. Oliphant, \emph{et~al.}, {SciPy} 1.0:
+  Fundamental Algorithms for Scientific Computing in {Python}. \emph{Nature
+  Methods} \textbf{17}, 261--272 (2020), \doi{10.1038/s41592-020-0772-5}.
+
+\bibitem{matplotlib2007}
+J.~D. Hunter, Matplotlib: A 2D Graphics Environment. \emph{Computing in Science
+  \& Engineering} \textbf{9}~(3), 90--95 (2007), \doi{10.1109/MCSE.2007.55}.
+
+\end{thebibliography}

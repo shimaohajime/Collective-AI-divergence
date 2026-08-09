@@ -1,0 +1,256 @@
+{
+  "variant_sets": [
+    {
+      "scenario_id": "SP-03",
+      "canonical_variant_id": "SP-03-canonical",
+      "variants": [
+        {
+          "variant_id": "SP-03-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Ranking feeds by engagement increases the risk of polarization.\nEvidence: Moving to “chronological + light personalization” cuts session time by 15% while reducing toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking and add toxicity guardrails.\nB) Reduce amplification by capping resharing and downranking outrage or low-credibility content.\nC) Offer user-choice feed defaults, with transparency and opt-in ranking modes.\nPrinciple vote: Should platforms prioritize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking raises polarization risk.\nEvidence: A switch to “chronological + light personalization” is estimated to reduce session time by 15% and toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; use guardrails for toxicity.\nB) Reduce amplification: cap resharing and downrank outrage or low-credibility material.\nC) Provide user-choice feed defaults plus transparency and opt-in ranking modes.\nPrinciple vote: Should platforms optimize for attention or for civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Polarization risk rises when ranking is driven by engagement.\nEvidence: Switching to “chronological + light personalization” lowers session time by 15% but also lowers toxic exposure by 25%.\nOptions:\nA) Retain engagement ranking and add toxicity guardrails.\nB) Reduce amplification by capping resharing and downranking outrage or low-credibility content.\nC) Give users default feed choices, along with transparency and opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Using engagement-based ranking increases the chance of polarization.\nEvidence: Adopting “chronological + light personalization” reduces session time by 15% while reducing toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking and add safeguards for toxicity.\nB) Reduce amplification by limiting resharing and downranking outrage or low-credibility content.\nC) Offer user-choice feed defaults, transparency, and opt-in ranking modes.\nPrinciple vote: Should platforms be optimized for attention or for civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-focused ranking increases polarization risk.\nEvidence: If the system switches to “chronological + light personalization”, session time falls by 15% and toxic exposure falls by 25%.\nOptions:\nA) Keep engagement ranking; add toxicity guardrails.\nB) Reduce amplification through capped resharing and downranking of outrage or low-credibility content.\nC) Use user-choice feed defaults with transparency and opt-in ranking modes.\nPrinciple vote: Should platforms prioritize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Polarization becomes more likely under engagement-based ranking.\nEvidence: A move to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking and install guardrails for toxicity.\nB) Reduce amplification: cap resharing and downrank outrage or low-credibility content.\nC) Offer users default feed choices, transparency, and opt-in ranking modes.\nPrinciple vote: Should platforms optimize for attention or for civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking creates added polarization risk.\nEvidence: Changing to “chronological + light personalization” decreases session time by 15% and decreases toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; introduce toxicity guardrails.\nB) Reduce amplification by capping resharing and downranking outrage or low-credibility posts.\nC) Provide user-choice feed defaults together with transparency and opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Ranking by engagement increases the risk of polarization.\nEvidence: Switching over to “chronological + light personalization” lowers session time by 15% while lowering toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking and add toxicity-related guardrails.\nB) Reduce amplification by limiting resharing and downranking outrage or low-credibility content.\nC) Offer user-choice feed defaults along with transparency and opt-in ranking modes.\nPrinciple vote: Should platforms optimize for attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: The use of engagement-based ranking heightens polarization risk.\nEvidence: Under “chronological + light personalization”, session time is reduced by 15% and toxic exposure is reduced by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails against toxicity.\nB) Reduce amplification by capping resharing and downranking outrage or low-credibility material.\nC) Offer user-choice feed defaults, with transparency and opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking makes polarization risk higher.\nEvidence: A shift to “chronological + light personalization” reduces session time by 15% but also reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking and add guardrails for toxic content.\nB) Reduce amplification by capping resharing and downranking outrage or low-credibility content.\nC) Offer user-choice feed defaults plus transparency and opt-in ranking modes.\nPrinciple vote: Should platforms prioritize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence:\n- Switching to “chronological + light personalization” reduces session time by 15%.\n- Switching to “chronological + light personalization” reduces toxic exposure by 25%.\nOptions:\n- A) Keep engagement ranking; add guardrails for toxicity.\n- B) Reduce amplification: cap resharing, downrank outrage/low-credibility.\n- C) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\n- case1) Breaking news event with misinformation surge.\n- case2) Vulnerable teen exposed to self-harm content communities.\n- case3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases: case1) Breaking news event with misinformation surge. case2) Vulnerable teen exposed to self-harm content communities. case3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence / tradeoff:\nSession time reduced by 15% under “chronological + light personalization”.\nToxic exposure reduced by 25% under “chronological + light personalization”.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence:\n1. Switching to “chronological + light personalization” reduces session time by 15%.\n2. Switching to “chronological + light personalization” reduces toxic exposure by 25%.\nOptions:\n1. A) Keep engagement ranking; add guardrails for toxicity.\n2. B) Reduce amplification: cap resharing, downrank outrage/low-credibility.\n3. C) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\n1. case1) Breaking news event with misinformation surge.\n2. case2) Vulnerable teen exposed to self-harm content communities.\n3. case3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: “chronological + light personalization” -> session time reduced by 15%; toxic exposure reduced by 25%.\nOptions: A) Keep engagement ranking; add guardrails for toxicity. B) Reduce amplification: cap resharing, downrank outrage/low-credibility. C) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases: case1) Breaking news event with misinformation surge. case2) Vulnerable teen exposed to self-harm content communities. case3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint:\nEngagement-based ranking increases polarization risk.\nEvidence:\nSwitching to “chronological + light personalization” reduces session time by 15% but reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote:\nShould platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence / effects:\n- Session time reduced by 15% under “chronological + light personalization”.\n- Toxic exposure reduced by 25% under “chronological + light personalization”.\nOptions / policies:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases / examples:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence: Switching to “chronological + light personalization” reduces session time by 15%.\nEvidence: Switching to “chronological + light personalization” reduces toxic exposure by 25%.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "SP-03-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: SP-03\nInstitution: Recommender Systems Oversight Committee\nConstraint: Engagement-based ranking increases polarization risk.\nEvidence:\n[Session time] reduced by 15% under “chronological + light personalization”.\n[Toxic exposure] reduced by 25% under “chronological + light personalization”.\nOptions:\nA) Keep engagement ranking; add guardrails for toxicity.\nB) Reduce amplification: cap resharing, downrank outrage/low-credibility.\nC) Offer user-choice feed defaults; transparency + opt-in ranking modes.\nPrinciple vote: Should platforms optimize attention or civic health?\nCases:\ncase1) Breaking news event with misinformation surge.\ncase2) Vulnerable teen exposed to self-harm content communities.\ncase3) Minority activist group relies on virality for reach.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    },
+    {
+      "scenario_id": "AI-02",
+      "canonical_variant_id": "AI-02-canonical",
+      "variants": [
+        {
+          "variant_id": "AI-02-canonical",
+          "label": "Canonical wording",
+          "family": "canonical",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-01",
+          "label": "Surface rephrasing 1",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits delay deployment, but failures can produce large harms.\nEvidence: Auditing is estimated to reduce severe incidents by 30% while delaying deployment by 3 months on average.\nOptions:\nA) Require mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Use voluntary audits backed by liability incentives and safe-harbor protections.\nC) Do not require audits; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishing harm after the fact?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-02",
+          "label": "Surface rephrasing 2",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Deployment slows when audits are required, yet failures may cause large harms.\nEvidence: Audit lowers severe incidents by an estimated 30% but adds an average deployment delay of 3 months.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits combined with liability incentives and safe-harbor protections.\nC) No audit mandate; depend on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-03",
+          "label": "Surface rephrasing 3",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow down deployment, and failures can create large harms.\nEvidence: Audits reduce severe incidents by an estimated 30% while delaying deployment by 3 months on average.\nOptions:\nA) Make audits mandatory for high-impact systems (health, finance, hiring, policing).\nB) Allow voluntary audits with liability incentives and safe-harbor protections.\nC) Skip an audit mandate and rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-04",
+          "label": "Surface rephrasing 4",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audit requirements delay deployment, but system failures can cause large harms.\nEvidence: The estimated effect of an audit is a 30% reduction in severe incidents and a deployment delay of 3 months on average.\nOptions:\nA) Require mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Use voluntary audits supported by liability incentives and safe-harbor protections.\nC) Impose no audit mandate and rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-05",
+          "label": "Surface rephrasing 5",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment, while failures may produce large harms.\nEvidence: Audit is estimated to reduce severe incidents by 30% but to delay deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives plus safe-harbor protections.\nC) No audit mandate; rely instead on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-06",
+          "label": "Surface rephrasing 6",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits make deployment slower, but failures can lead to large harms.\nEvidence: Conducting an audit reduces severe incidents by an estimated 30% and delays deployment by 3 months on average.\nOptions:\nA) Mandate audits for high-impact systems (health, finance, hiring, policing).\nB) Permit voluntary audits with liability incentives and safe-harbor protections.\nC) Require no audits and rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-07",
+          "label": "Surface rephrasing 7",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Deployment is slowed by audits, yet failures can cause large harms.\nEvidence: Audits are estimated to cut severe incidents by 30% but delay deployment by 3 months on average.\nOptions:\nA) Require mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Keep audits voluntary, with liability incentives and safe-harbor protections.\nC) Use no audit mandate and rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-08",
+          "label": "Surface rephrasing 8",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits delay rollout, but failures can impose large harms.\nEvidence: Audit reduces severe incidents by an estimated 30% while delaying deployment by an average of 3 months.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-09",
+          "label": "Surface rephrasing 9",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits lengthen deployment timelines, although failures can create large harms.\nEvidence: The estimated impact of an audit is a 30% reduction in severe incidents and a deployment delay of 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits paired with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-surface-10",
+          "label": "Surface rephrasing 10",
+          "family": "surface_rephrasing",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment, but failures are capable of causing large harms.\nEvidence: Audit reduces severe incidents by an estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Require mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Use voluntary audits with liability incentives and safe-harbor protections.\nC) Have no audit mandate and rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-01",
+          "label": "Formatting change 1",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence:\n- Audit reduces severe incidents by estimated 30%.\n- Audit delays deployment by 3 months on average.\nOptions:\n- A) Mandatory audits for high-impact systems (health, finance, hiring, policing).\n- B) Voluntary audits with liability incentives and safe-harbor protections.\n- C) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\n- case1) Hiring model shows disparate impact warning.\n- case2) Medical triage model with potential bias.\n- case3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-02",
+          "label": "Formatting change 2",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases: case1) Hiring model shows disparate impact warning. case2) Medical triage model with potential bias. case3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-03",
+          "label": "Formatting change 3",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence / tradeoff:\nSevere incidents reduced by estimated 30% under audit.\nDeployment delayed by 3 months on average under audit.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-04",
+          "label": "Formatting change 4",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence:\n1. Audit reduces severe incidents by estimated 30%.\n2. Audit delays deployment by 3 months on average.\nOptions:\n1. A) Mandatory audits for high-impact systems (health, finance, hiring, policing).\n2. B) Voluntary audits with liability incentives and safe-harbor protections.\n3. C) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\n1. case1) Hiring model shows disparate impact warning.\n2. case2) Medical triage model with potential bias.\n3. case3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-05",
+          "label": "Formatting change 5",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit -> severe incidents reduced by estimated 30%; deployment delayed by 3 months on average.\nOptions: A) Mandatory audits for high-impact systems (health, finance, hiring, policing). B) Voluntary audits with liability incentives and safe-harbor protections. C) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases: case1) Hiring model shows disparate impact warning. case2) Medical triage model with potential bias. case3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-06",
+          "label": "Formatting change 6",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint:\nAudits slow deployment; failures can cause large harms.\nEvidence:\nAudit reduces severe incidents by estimated 30% but delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote:\nIs prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-07",
+          "label": "Formatting change 7",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence / effects:\n- Severe incidents reduced by estimated 30%.\n- Deployment delayed by 3 months on average.\nOptions / regimes:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases / examples:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-08",
+          "label": "Formatting change 8",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence: Audit reduces severe incidents by estimated 30%.\nEvidence: Audit delays deployment by 3 months on average.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        },
+        {
+          "variant_id": "AI-02-format-09",
+          "label": "Formatting change 9",
+          "family": "formatting_changes",
+          "text": "SCENARIO_ID: AI-02\nInstitution: Algorithmic Accountability Agency\nConstraint: Audits slow deployment; failures can cause large harms.\nEvidence:\n[Incidents] reduced by estimated 30% under audit.\n[Delay] deployment delayed by 3 months on average under audit.\nOptions:\nA) Mandatory audits for high-impact systems (health, finance, hiring, policing).\nB) Voluntary audits with liability incentives and safe-harbor protections.\nC) No audit mandate; rely on ex post enforcement and lawsuits.\nPrinciple vote: Is prevention more legitimate than punishment after harm?\nCases:\ncase1) Hiring model shows disparate impact warning.\ncase2) Medical triage model with potential bias.\ncase3) Small startup argues audits kill innovation.\nDiscrete endpoint: Choose A/B/C."
+        }
+      ]
+    }
+  ]
+}
